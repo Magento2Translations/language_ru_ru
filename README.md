@@ -16,7 +16,7 @@ php bin/magento cache:clean
 ## Manually
 To install this language package manually you need access to your server file system.
 * Download the zip file [here](https://github.com/Magento2Translations/language_ru_ru/archive/master.zip).
-* Upload the contents to `<your magento path>/app/i18n/magento2translations/ru_RU`.
+* Upload the contents to `<your magento path>/app/i18n/magento2translations/language_ru_ru`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/ru_RU/ru_RU.csv`.
 * Go to your Magento admin panel and clear the caches.
 
