@@ -835,7 +835,6 @@ Shipping,Доставка,module,Magento_Payment
 Yes,Да,module,Magento_Payment
 No,Нет,module,Magento_Payment
 "Expiration Date","Дата окончания срока действия",module,Magento_Payment
-"Start Date","Дата начала",module,Magento_Payment
 "--Please Select--","-- Выберите --",module,Magento_Payment
 "What is this?","Что это?",module,Magento_Payment
 "Billing Agreements","Правила оплаты",module,Magento_Paypal
