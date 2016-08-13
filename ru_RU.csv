@@ -586,7 +586,9 @@ Import,Импорт,module,Magento_CurrencySymbol
 "Currency Rates","Курсы валют",module,Magento_CurrencySymbol
 System,Система,module,Magento_CurrencySymbol
 "Please specify a website.","Пожалуйста, укажите веб-сайт.",module,Magento_CustomerImportExport
+"Please enter a valid email.","Пожалуйста, введите корректный email.",module,Magento_CustomerImportExport
 "Sign Out",Выход,module,Magento_Customer
+"Sign In",Войти,module,Magento_Customer
 "Edit Address","Изменить адрес",module,Magento_Customer
 "Create Order","Создать заказ",module,Magento_Customer
 "New Customer","Новый клиент",module,Magento_Customer
@@ -685,6 +687,7 @@ Currency,Валюта,module,Magento_Directory
 Continue,Продолжить,module,Magento_Directory
 Error,Ошибка,module,Magento_DownloadableImportExport
 "Downloadable Information","Загружаемая информация",module,Magento_Downloadable
+"Upload Files","Загрузить файлы",module,Magento_Downloadable
 "All Files","Все файлы",module,Magento_Downloadable
 "The link is not available.","Ссылка не доступна.",module,Magento_Downloadable
 attachment,вложение,module,Magento_Downloadable
@@ -759,6 +762,7 @@ Name,Название,module,Magento_GroupedProduct
 Availability,Наличие,module,Magento_GroupedProduct
 "In stock","В наличии",module,Magento_GroupedProduct
 Export,Экспорт,module,Magento_ImportExport
+"Export Settings","Экспорт настроек",module,Magento_ImportExport
 From,от,module,Magento_ImportExport
 To,До,module,Magento_ImportExport
 Import,Импорт,module,Magento_ImportExport
@@ -779,6 +783,7 @@ Edit,Редактировать,module,Magento_Integration
 "Are you sure ?","Вы уверены ?",module,Magento_Integration
 Custom,Выборочный,module,Magento_Integration
 All,Все,module,Magento_Integration
+"Filterable (with results)","Фильтруемый (с результатами)",module,Magento_LayeredNavigation
 No,Нет,module,Magento_LayeredNavigation
 Previous,Предыдущий,module,Magento_LayeredNavigation
 Remove,Удалить,module,Magento_LayeredNavigation
@@ -1095,6 +1100,7 @@ Close,Закрыть,module,Magento_Sales
 "Add to Cart","Добавить в корзину",module,Magento_Sales
 Search,Поиск,module,Magento_Sales
 "Search Term","Поисковый запрос",module,Magento_Search
+Results,Результаты,module,Magento_Search
 Search,Поиск,module,Magento_Search
 No,Нет,module,Magento_Search
 Yes,Да,module,Magento_Search
@@ -1329,6 +1335,8 @@ Password:,Пароль:,theme,frontend/Magento/luma
 "Order History","История заказов",theme,frontend/Magento/luma
 "View past orders","Просмотр предыдущих заказов",theme,frontend/Magento/luma
 "About Us","О нас",theme,frontend/Magento/luma
+"Customer Service","Обслуживание клиентов",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Часы работы: <br /> <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Shipping Info","Информация по доставке",theme,frontend/Magento/luma
 "Payment Method","Метод оплаты",theme,frontend/Magento/luma
 "Shipping Method","Способ доставки",theme,frontend/Magento/luma
