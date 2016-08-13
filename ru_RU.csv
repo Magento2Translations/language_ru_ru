@@ -166,6 +166,7 @@ password,пароль,module,Magento_Backend
 "Top Search Terms","Популярные поисковые запросы",module,Magento_Backend
 "All Websites","Все веб-сайты",module,Magento_Backend
 "Browse Files...","Выбрать файлы...",module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Все права защищены.",module,Magento_Backend
 "About the calendar","О календаре",module,Magento_Backend
 Close,Закрыть,module,Magento_Backend
 Previous,Предыдущий,module,Magento_Backend
@@ -581,6 +582,7 @@ Customers,Покупатели,module,Magento_Customer
 Global,Глобальнo,module,Magento_Customer
 "Shipping Address","Адрес доставки",module,Magento_Customer
 "-- Please Select --","-- Выберите --",module,Magento_Customer
+"Please correct this email address: ""%1"".","Пожалуйста, исправьте этот email адрес: ""%1"".",module,Magento_Customer
 "Customer Group","Группы клиентов",module,Magento_Customer
 Edit,Редактировать,module,Magento_Customer
 Visitor,Посетитель,module,Magento_Customer
@@ -628,6 +630,7 @@ WARNING:,ВНИМАНИЕ:,module,Magento_Directory
 Currency,Валюта,module,Magento_Directory
 Continue,Продолжить,module,Magento_Directory
 "Downloadable Information","Загружаемая информация",module,Magento_Downloadable
+"Upload Files","Загрузить файлы",module,Magento_Downloadable
 "All Files","Все файлы",module,Magento_Downloadable
 "The link is not available.","Ссылка не доступна.",module,Magento_Downloadable
 attachment,вложение,module,Magento_Downloadable
@@ -694,6 +697,7 @@ Name,Название,module,Magento_GroupedProduct
 Availability,Наличие,module,Magento_GroupedProduct
 "In stock","В наличии",module,Magento_GroupedProduct
 Export,Экспорт,module,Magento_ImportExport
+"Export Settings","Экспорт настроек",module,Magento_ImportExport
 From,от,module,Magento_ImportExport
 To,До,module,Magento_ImportExport
 Import,Импорт,module,Magento_ImportExport
@@ -711,6 +715,7 @@ Email,"Электронная почта",module,Magento_Integration
 Remove,Удалить,module,Magento_Integration
 Edit,Редактировать,module,Magento_Integration
 "Are you sure ?","Вы уверены ?",module,Magento_Integration
+"Filterable (with results)","Фильтруемый (с результатами)",module,Magento_LayeredNavigation
 No,Нет,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Положение атрибута в блоке навигации",module,Magento_LayeredNavigation
 Previous,Предыдущий,module,Magento_LayeredNavigation
