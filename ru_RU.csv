@@ -190,6 +190,7 @@ Minute,Минута,module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Это демонстрационный магазин. Любые заказы, оформленные на этом сайте, не будут обработаны или выполнены.",module,Magento_Backend
 "Report Bugs","Сообщить об ошибке",module,Magento_Backend
 "Store View:","Представление магазина:",module,Magento_Backend
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Пожалуйста, подтвердите переключение области. Все данные, которые не были сохранены, будут потеряны.",module,Magento_Backend
 Catalog,Каталог,module,Magento_Backend
 "JavaScript/CSS Cache","Кэш JavaScript/CSS",module,Magento_Backend
 Images,Изображения,module,Magento_Backend
