@@ -215,6 +215,15 @@ Country,Страна,module,Magento_Braintree
 "Stored Card","Сохраненные карты",module,Magento_Braintree
 "Credit Card Type","Тип кредитной карты",module,Magento_Braintree
 "Credit Card Number","Номер кредитной карты",module,Magento_Braintree
+"Credit card successfully added","Кредитная карточка успешно добавлена",module,Magento_Braintree
+"Delete Credit Card","Удалить кредитную карточку",module,Magento_Braintree
+"Credit card successfully deleted","Кредитная карточка успешно удалена",module,Magento_Braintree
+"Edit Credit Card","Изменение кредитной карточки",module,Magento_Braintree
+"My Credit Cards","Мои кредитные карточки",module,Magento_Braintree
+"There was error during saving card data","Возникла ошибка при сохранении данных карточки",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Тип кредитной карточки не доступен для вашей страны.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","Тип кредитной карты не допускается для данного метода оплаты.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","Тип выбранного платежа не допускается для выставления счетов страны.",module,Magento_Braintree
 "Please try again later","Повторите попытку позже",module,Magento_Braintree
 "Add new card","Добавить новую карту",module,Magento_Braintree
 "Expiration Date","Дата окончания срока действия",module,Magento_Braintree
@@ -1198,6 +1207,7 @@ Region/State,Область,module,Magento_Backend
 "ZIP/Postal Code","Почтовый Индекс",module,Magento_Backend
 City,Город,module,Magento_Backend
 "Port (25)","Порт (25)",module,Magento_Backend
+"Recovery Link Expiration Period (days)","Срок действия ссылки восстановления (дней)",module,Magento_Backend
 Security,Безопасноть,module,Magento_Backend
 "Admin Session Lifetime (seconds)","Время жизни сеанса администратора (в секундах)",module,Magento_Backend
 "Values less than 60 are ignored.","Значения меньше 60 игнорируются.",module,Magento_Backend
