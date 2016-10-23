@@ -4,11 +4,15 @@
 Remove,Удалить,module,Magento_AdminNotification
 "Messages Inbox","Входящие сообщения",module,Magento_AdminNotification
 "You have %1 new system messages","У вас есть новые системные сообщения %1",module,Magento_AdminNotification
+"You have %1 new system message","У вас есть %1 новое системное сообщение",module,Magento_AdminNotification
 "Incoming Message","Входящее сообщение",module,Magento_AdminNotification
 close,закрыть,module,Magento_AdminNotification
 Notifications,Уведомления,module,Magento_AdminNotification
 "The message has been marked as Read.","Сообщение было помечено как прочитанное.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","Мы не можем пометить уведомление как прочитанное из-за ошибки.",module,Magento_AdminNotification
 "Please select messages.","Пожалуйста, выберите сообщения.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 записи(ей) было помечено как прочитанные.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","%1 запись(и) была(и) удалены.",module,Magento_AdminNotification
 "The message has been removed.","Сообщение было удалено.",module,Magento_AdminNotification
 "1 Hour","1 час",module,Magento_AdminNotification
 "2 Hours","2 часа",module,Magento_AdminNotification
