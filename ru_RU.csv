@@ -698,6 +698,7 @@ From,от,module,Magento_GiftMessage
 To,До,module,Magento_GiftMessage
 Cancel,Отмена,module,Magento_GiftMessage
 Dynamic,Динамический,module,Magento_GoogleAdwords
+Constant,Константа,module,Magento_GoogleAdwords
 "Grouped Products","Сгруппированные продукты",module,Magento_GroupedProduct
 "Associated Products","Связанные товары",module,Magento_GroupedProduct
 Availability:,Наличие:,module,Magento_GroupedProduct
