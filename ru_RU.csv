@@ -4,11 +4,14 @@
 Remove,Удалить,module,Magento_AdminNotification
 "Messages Inbox","Входящие сообщения",module,Magento_AdminNotification
 "You have %1 new system messages","У вас есть новые системные сообщения %1",module,Magento_AdminNotification
+"You have %1 new system message","У вас есть %1 новое системное сообщение",module,Magento_AdminNotification
 "Incoming Message","Входящее сообщение",module,Magento_AdminNotification
 close,закрыть,module,Magento_AdminNotification
 Notifications,Уведомления,module,Magento_AdminNotification
 "The message has been marked as Read.","Сообщение было помечено как прочитанное.",module,Magento_AdminNotification
 "Please select messages.","Пожалуйста, выберите сообщения.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 записи(ей) было помечено как прочитанные.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","%1 запись(и) была(и) удалены.",module,Magento_AdminNotification
 "The message has been removed.","Сообщение было удалено.",module,Magento_AdminNotification
 "1 Hour","1 час",module,Magento_AdminNotification
 "2 Hours","2 часа",module,Magento_AdminNotification
@@ -19,27 +22,77 @@ critical,критично,module,Magento_AdminNotification
 major,важно,module,Magento_AdminNotification
 minor,обычно,module,Magento_AdminNotification
 notice,уведомление,module,Magento_AdminNotification
+"Wrong message type","Неправильный тип сообщения",module,Magento_AdminNotification
+"Wrong notification ID specified.","Указан неправильный идентификатор уведомления.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} не рекомендуется использовать в производственной среде для обьявления небезопасного Base URL / Base Secure URL. Настоятельно рекомендуется изменить это значение в вашем Magento <a href=""%1""> конфигурации</a>.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Пожалуйста, перейдите на <a href=""%1""> управления кэшем </a> и обновления типов кэша.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Нам не удалось синхронизировать один или несколько медиа-файлов. Пожалуйста, обратитесь к log файлу для подробной информации.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Синхронизация медиа хранилищ была завершена.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Ваш веб-сервер настроен неправильно и разрешает несанкционированный доступ к важным файлам. Пожалуйста, свяжитесь с хостинг-провайдером.",module,Magento_AdminNotification
 "Close popup","Закрыть всплывающее окно",module,Magento_AdminNotification
 Close,Закрыть,module,Magento_AdminNotification
+"System Messages:","Системные сообщения:",module,Magento_AdminNotification
 "Critical System Messages","Критичные системные сообщения",module,Magento_AdminNotification
+"Major System Messages","Основные системные сообщения",module,Magento_AdminNotification
 "System messages","Системные сообщения",module,Magento_AdminNotification
+"See All (","Просмотреть все (",module,Magento_AdminNotification
 "Please correct the data sent.","Пожалуйста, исправьте отправленные данные.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Введеный тип модели '%1' не найден",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Модель типа сущности должна быть \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export","Нет типов продуктов, доступных для экспорта",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","Мы не можем определить права запрошенного пользователя.",module,Magento_Authorization
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Что-то пошло не так во время компиляции списка разрешенных ресурсов. Вы можете узнать больше информации в журнале исключений.",module,Magento_Authorization
 "You created the order.","Вы создали заказ.",module,Magento_Authorizenet
+"Order saving error: %1","Порядок сохранения ошибки: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Пожалуйста, выберите способ оплаты.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Мы не можем обработать вам заказ сейчас. Пожалуйста попробуйте позже.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Кредитная карта: xxxx-%1",module,Magento_Authorizenet
+"amount %1","сумма %1",module,Magento_Authorizenet
+failed.,ошибка.,module,Magento_Authorizenet
 successful.,успешно.,module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net транзакции ID %1.",module,Magento_Authorizenet
+authorize,Авторизация,module,Magento_Authorizenet
+"authorize and capture","Авторизация и запись",module,Magento_Authorizenet
+capture,запись,module,Magento_Authorizenet
+refund,возврат,module,Magento_Authorizenet
+void,"значение void",module,Magento_Authorizenet
 "Gateway error: %1","Ошибка шлюза: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Что-то пошло не так в платежном шлюзе.",module,Magento_Authorizenet
+"Invalid amount for capture.","Недопустимый размер записи.",module,Magento_Authorizenet
+"Payment capturing error.","Ошибка записи оплаты.",module,Magento_Authorizenet
+"Invalid transaction ID.","Недопустимый ID транзакции.",module,Magento_Authorizenet
+"Payment voiding error.","Ошибка значения void оплаты.",module,Magento_Authorizenet
+"Invalid amount for refund.","Недопустимый размер для возврата.",module,Magento_Authorizenet
+"Payment refunding error.","Ошибка возврата оплаты.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Транзакция была отклонена, поскольку не удалось проверить хэш.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Этот платеж не прошел, так как мы не можем найти этот заказ.",module,Magento_Authorizenet
+"There was a payment authorization error.","Была ошибка авторизации платежа.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","Пожалуйста, введите ID транзакции для авторизации этого платежа.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Что-то пошло не так: платежная сумма не соответствует сумме заказа. Пожалуйста откорректируйте её и попробуйте позже.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","%1 транзакция одобрена. Сумма %2. Статус транзакции — «%3»",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","%1 транзакция была пропущенна/отклонена. Статус транзакции — «%2». Сумма %3.",module,Magento_Authorizenet
+"Authorize Only","Авторизировать только",module,Magento_Authorizenet
+"Authorize and Capture","Авторизация и запись",module,Magento_Authorizenet
+"Unable to get transaction details. Try again later.","Не удалось получить сведения о транзакциях. Повторите попытку позже.",module,Magento_Authorizenet
 "Credit Card Type","Тип кредитной карты",module,Magento_Authorizenet
 "Credit Card Number","Номер кредитной карты",module,Magento_Authorizenet
 "Expiration Date","Дата окончания срока действия",module,Magento_Authorizenet
+"Card Verification Number","Проверочный код карты",module,Magento_Authorizenet
+"FDS Filter Action","Действие фильтра FDS",module,Magento_Authorizenet
+"AVS Response","AVS ответ",module,Magento_Authorizenet
+"Card Code Response","Ответ Карт Кода",module,Magento_Authorizenet
+"CAVV Response","CAVV ответ",module,Magento_Authorizenet
+"Fraud Filters","Фильтры мошенничества",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Недопустимый ключ формы. Пожалуйста, обновите страницу.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Вы ввели неверный секретный ключ. Пожалуйста, обновите страницу.",module,Magento_Backend
+"Cache Storage Management","Управление хранилищем кэша",module,Magento_Backend
 "Flush Magento Cache","Очистить кэш Magento",module,Magento_Backend
+"The cache storage may contain additional data. Are you sure that you want to flush it?","Кэш-хранилище может содержать дополнительные данные. Вы уверены, что вы хотите, чтобы очистить его?",module,Magento_Backend
 "Flush Cache Storage","Очистить хранилище кэша",module,Magento_Backend
+Invalidated,Недействительно,module,Magento_Backend
 Orders,Заказы,module,Magento_Backend
+Amounts,Сумма,module,Magento_Backend
+Bestsellers,"Лидеры продаж",module,Magento_Backend
 "Most Viewed Products","Наиболее просматриваемые товары",module,Magento_Backend
 "New Customers","Новый клиент",module,Magento_Backend
 Customers,Покупатели,module,Magento_Backend
@@ -47,16 +100,21 @@ Customer,Клиент,module,Magento_Backend
 Guest,Гость,module,Magento_Backend
 Items,Позиции,module,Magento_Backend
 Total,Всего,module,Magento_Backend
+"Lifetime Sales","Всего продаж",module,Magento_Backend
+"Average Order","Обычный заказ",module,Magento_Backend
 Average,"В среднем",module,Magento_Backend
 Product,Товар,module,Magento_Backend
 Price,Цена,module,Magento_Backend
 Quantity,Количество,module,Magento_Backend
+Views,Просмотры,module,Magento_Backend
 Revenue,Доход,module,Magento_Backend
 Tax,Налог,module,Magento_Backend
 Shipping,Доставка,module,Magento_Backend
 "Images (.gif, .jpg, .png)","Изображения (.gif, .jpg, .png)",module,Magento_Backend
 "Media (.avi, .flv, .swf)","Медиа (.avi, .flv и .swf)",module,Magento_Backend
 "All Files","Все файлы",module,Magento_Backend
+"Reset to Default","Сброс по умолчанию",module,Magento_Backend
+"All Store Views","Хранилище всех просмотров",module,Magento_Backend
 "What is this?","Что это?",module,Magento_Backend
 "Save Account","Сохранить учетную запись",module,Magento_Backend
 "My Account","Моя учётная запись",module,Magento_Backend
@@ -69,10 +127,16 @@ Email,"Электронная почта",module,Magento_Backend
 "New Password","Новый пароль",module,Magento_Backend
 "Password Confirmation","Подтверждение пароля",module,Magento_Backend
 "Interface Locale","Язык интерфейса",module,Magento_Backend
+"Current User Identity Verification","Идентификация пользователя",module,Magento_Backend
 "Your Password","Ваш пароль",module,Magento_Backend
+"Save Cache Settings","Сохранение параметров кэша",module,Magento_Backend
+"Catalog Rewrites","Перезапись каталога",module,Magento_Backend
 Refresh,Обновить,module,Magento_Backend
+"Images Cache","Кеш изображений",module,Magento_Backend
 Clear,Очистить,module,Magento_Backend
+"Search Index","Поисковый индекс",module,Magento_Backend
 Rebuild,Перестроить,module,Magento_Backend
+"Inventory Stock Status","Инвентаризация склада",module,Magento_Backend
 "Rebuild Catalog Index","Перестроить индекс каталога",module,Magento_Backend
 "Rebuild Flat Catalog Category","Перестроить каталог с горизонтальной (flat) структурой хранения",module,Magento_Backend
 "Rebuild Flat Catalog Product","Перестроить товары с горизонтальной (flat) структурой хранения",module,Magento_Backend
@@ -86,6 +150,8 @@ Back,Вернуться,module,Magento_Backend
 Delete,Удалить,module,Magento_Backend
 "Are you sure?","Вы уверены?",module,Magento_Backend
 Save,Сохранить,module,Magento_Backend
+"Edit Design Change","Редактирование дизайна",module,Magento_Backend
+"New Store Design Change","Редактирование дизайна нового магазина",module,Magento_Backend
 "General Settings","Общие настройки",module,Magento_Backend
 Store,Магазин,module,Magento_Backend
 "-- Please Select --","-- Выберите --",module,Magento_Backend
@@ -95,6 +161,7 @@ Store,Магазин,module,Magento_Backend
 "Design Change","Изменение дизайна",module,Magento_Backend
 General,Общие,module,Magento_Backend
 Cancel,Отмена,module,Magento_Backend
+"Delete %1 '%2'","Удалить %1 «%2»",module,Magento_Backend
 "Delete %1","Удаление %1",module,Magento_Backend
 "Block Information","Блок информации",module,Magento_Backend
 "Backup Options","Параметры резервного копирования",module,Magento_Backend
@@ -124,7 +191,9 @@ Status,Статус,module,Magento_Backend
 Disabled,Отключено,module,Magento_Backend
 Enabled,Включено,module,Magento_Backend
 "Sort Order","Порядок Сортировки",module,Magento_Backend
+"Web Site Information","Информация веб-сайта",module,Magento_Backend
 "Default Store","Магазин по умолчанию",module,Magento_Backend
+"Set as Default","Установить по умолчанию",module,Magento_Backend
 Stores,Магазины,module,Magento_Backend
 "Create Website","Создать веб-сайт",module,Magento_Backend
 "Create Store","Создать магазин",module,Magento_Backend
@@ -133,6 +202,7 @@ Home,Главная,module,Magento_Backend
 Reset,Сбросить,module,Magento_Backend
 "Are you sure you want to do this?","Вы уверены, что вы хотите это сделать?",module,Magento_Backend
 "Add New Image","Добавить новое изображение",module,Magento_Backend
+"Export block for grid %1 is not defined","Экспорт блока для сетки %1 не определен",module,Magento_Backend
 "Reset Filter","Сбросить фильтр",module,Magento_Backend
 Search,Поиск,module,Magento_Backend
 Any,Любой,module,Magento_Backend
@@ -144,36 +214,85 @@ To,До,module,Magento_Backend
 "Select All","Выбрать всё",module,Magento_Backend
 "We couldn't find any records.","Мы не смогли найти каких-либо записей.",module,Magento_Backend
 "Add New","Добавить новый",module,Magento_Backend
+"Invalid export type supplied for grid export block","Недопустимый типа экспорта сетки блока экспорта",module,Magento_Backend
 Export,Экспорт,module,Magento_Backend
+"Please correct the column format and try again.","Исправьте формат столбцов и повторите попытку.",module,Magento_Backend
+"Please select items.","Пожалуйста, выберите элементы.",module,Magento_Backend
+Submit,Отправить,module,Magento_Backend
 "Unknown block type","Неизвестный тип блока",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empry","Пожалуйста исправьте конфигурацию вкладки и повторите попытку. ID вкладки не должен быть пустым",module,Magento_Backend
+"Please correct the tab configuration and try again.","Исправьте настройки вкладки и повторите попытку.",module,Magento_Backend
+"You have logged out.","Вы вышли из системы.",module,Magento_Backend
 "Specified cache type(s) don't exist: %1","Указанный(-ые) тип(ы) кэша не существует(-ют): %1",module,Magento_Backend
+"The image cache was cleaned.","Кэш изображений был очищен.",module,Magento_Backend
+"An error occurred while clearing the image cache.","Произошла ошибка при очистке кэша изображений.",module,Magento_Backend
+"The JavaScript/CSS cache has been cleaned.","Кэш JavaScript / CSS был очищен.",module,Magento_Backend
+"An error occurred while clearing the JavaScript/CSS cache.","Произошла ошибка при очистке кэша JavaScript/CSS.",module,Magento_Backend
+"The static files cache has been cleaned.","Очистить кэш статических файлов.",module,Magento_Backend
+"You flushed the cache storage.","Сброс кэша хранения.",module,Magento_Backend
+"The Magento cache storage has been flushed.","Кэш-хранилище Magento было очищено.",module,Magento_Backend
 "Cache Management","Управление кэшем",module,Magento_Backend
+"%1 cache type(s) disabled.","%1 типы кэша отключены.",module,Magento_Backend
+"An error occurred while disabling cache.","Произошла ошибка при отключении кэша.",module,Magento_Backend
+"%1 cache type(s) enabled.","%1 типы кэш включены.",module,Magento_Backend
+"An error occurred while enabling cache.","Произошла ошибка при включении кэша.",module,Magento_Backend
+"%1 cache type(s) refreshed.","%1 типы кэша обновляются.",module,Magento_Backend
+"An error occurred while refreshing cache.","Произошла ошибка при обновлении кэша.",module,Magento_Backend
 Dashboard,"Панель управления",module,Magento_Backend
+"We updated lifetime statistic.","Мы обновили всю статистику.",module,Magento_Backend
 "We can't refresh lifetime statistics.","Мы не можем обновить статистику в реальном времени.",module,Magento_Backend
 "invalid request","неверный запрос",module,Magento_Backend
 "see error log for details","подробности смотрите в журнале ошибок",module,Magento_Backend
+"Service unavailable: %1","Служба недоступна: %1",module,Magento_Backend
 Error,Ошибка,module,Magento_Backend
 "Access Denied.","Доступ запрещен.",module,Magento_Backend
+"You need more permissions to do this.","Вам нужно больше пользовательсктх прав.",module,Magento_Backend
+"No search modules were registered","Нет зарегистрированных поисковых модулей",module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.","Пожалуйста, убедитесь, что все поисковые модули глобального администратора установлены и активированы.",module,Magento_Backend
 "You have entered an invalid password for current user.","Вы ввели неправильный пароль для текущего пользователя.",module,Magento_Backend
+"You saved the account.","Вы сохранили учетную запись.",module,Magento_Backend
 "An error occurred while saving account.","Произошла ошибка при сохранении учетной записи.",module,Magento_Backend
+"You deleted the design change.","Вы удалили изменения дизайна.",module,Magento_Backend
 "Store Design","Дизайн магазина",module,Magento_Backend
+"Edit Store Design Change","Редактировать Дизайн магазина",module,Magento_Backend
+"You saved the design change.","Вы сохранили изменения дизайна.",module,Magento_Backend
 System,Система,module,Magento_Backend
 "Manage Stores","Управление магазинами",module,Magento_Backend
+"The database was backed up.","Была создана резервная копия базы данных.",module,Magento_Backend
 "We can't create a backup right now. Please try again later.","Мы не можем создать резервную копию прямо сейчас. Пожалуйста, повторите попытку позже.",module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","Удаление %1 не удалят информацию, связанную с %1 (например, категории, продукты, и др.), но %1 не сможет быть восстановлен. Создайте резервную копию базы данных перед удалением %1.",module,Magento_Backend
+"Something went wrong. Please try again.","Что-то пошло не так. Пожалуйста, попробуйте еще раз.",module,Magento_Backend
+"This store cannot be deleted.","Невозможно удалить этот магазин.",module,Magento_Backend
+"You deleted the store.","Вы удалили магазин.",module,Magento_Backend
 "Unable to delete store. Please, try again later.","Не удается удалить магазин. Пожалуйста повторите попытку позже.",module,Magento_Backend
+"This store view cannot be deleted.","Невозможно удалить это представление магазина.",module,Magento_Backend
 "Store View","Представление магазина",module,Magento_Backend
+"You deleted the store view.","Вы удалили представление магазина.",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","Не удается удалить вид магазина. Пожалуйста повторите попытку позже.",module,Magento_Backend
+"This website cannot be deleted.","Невозможно удалить этот веб-сайт.",module,Magento_Backend
+"You deleted the website.","Вы удалили веб-сайт.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Не удается удалить веб-сайт. Пожалуйста повторите попытку позже.",module,Magento_Backend
+"The website does not exist.","Веб-сайт не существует.",module,Magento_Backend
+"Before modifying the website code please make sure it is not used in index.php.","Перед изменением кода веб-сайта пожалуйста, убедитесь, что он не используется в index.php.",module,Magento_Backend
+"The store does not exist","Магазин не существует",module,Magento_Backend
+"Before modifying the store view code please make sure it is not used in index.php.","Перед изменением кода магазина пожалуйста, убедитесь, что он не используется в index.php.",module,Magento_Backend
 "You saved the website.","Вы сохранили веб-сайт.",module,Magento_Backend
+"You saved the store.","Вы сохранили магазин.",module,Magento_Backend
 "You saved the store view.","Вы сохранили представление магазина.",module,Magento_Backend
+"Something went wrong while saving. Please review the error log.","Что-то пошло не так при сохранении. Пожалуйста, просмотрите журнал ошибок.",module,Magento_Backend
 "Last 24 Hours","Последние 24 часа",module,Magento_Backend
 "Last 7 Days","Последние 7 дней",module,Magento_Backend
 "Current Month","Текущий месяц",module,Magento_Backend
+"Authentication storage is incorrect.","Проверка магазина некорректна.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Вы не правильно авторизировались или ваша учетная запись временно отключена.",module,Magento_Backend
+"Authentication error occurred.","Произошла ошибка аутентификации.",module,Magento_Backend
 Order,Заказ,module,Magento_Backend
 "Order #%1","Заказ #%1",module,Magento_Backend
 "Access denied","Доступ запрещен",module,Magento_Backend
 "Please try to sign out and sign in again.","Попробуйте выйти из системы и войти снова.",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","Если вы продолжаете получать это сообщение, пожалуйста, свяжитесь с владельцем магазина.",module,Magento_Backend
+"You need more permissions to access this.","Необходимы дополнительные права, чтобы получить доступ к этому.",module,Magento_Backend
+"Welcome, please sign in","Добро пожаловать, пожалуйста, войдите",module,Magento_Backend
 Username,"Имя пользователя",module,Magento_Backend
 "user name","имя пользователя",module,Magento_Backend
 Password,Пароль,module,Magento_Backend
@@ -181,23 +300,45 @@ password,пароль,module,Magento_Backend
 "Sign in",Войти,module,Magento_Backend
 "Select Range:","Выберите диапазон:",module,Magento_Backend
 "No Data Found","Данные не найдены",module,Magento_Backend
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Диаграмма будет отключена. Чтобы включить диаграмму, нажмите <a href=""%1""> здесь</a>.",module,Magento_Backend
 "Last Orders","Последние заказы",module,Magento_Backend
 "Last Search Terms","Последние поисковые запросы",module,Magento_Backend
 "Top Search Terms","Популярные поисковые запросы",module,Magento_Backend
+"There are no search keywords.","Там нет ключевых слов поиска.",module,Magento_Backend
+"View Statistics For:","Просмотр статистики для:",module,Magento_Backend
 "All Websites","Все веб-сайты",module,Magento_Backend
+"Reload Data","Перезагрузка данных",module,Magento_Backend
 "Browse Files...","Выбрать файлы...",module,Magento_Backend
+"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright&copy; %1 Magento Commerce Inc. Все права защищены.",module,Magento_Backend
+"ver. %1","Версия %1",module,Magento_Backend
+"Magento Admin Panel","Панель администратора Magento",module,Magento_Backend
+"Account Setting","Настройки аккаунта",module,Magento_Backend
+"Customer View","Просмотр клиента",module,Magento_Backend
+"Sign Out",Выход,module,Magento_Backend
 "About the calendar","О календаре",module,Magento_Backend
 Close,Закрыть,module,Magento_Backend
+"Go Today","Перейти сегодня",module,Magento_Backend
 Previous,Предыдущий,module,Magento_Backend
 Next,Дальше,module,Magento_Backend
 Time,Время,module,Magento_Backend
 Hour,Час,module,Magento_Backend
 Minute,Минута,module,Magento_Backend
+"JavaScript may be disabled in your browser.","JavaScript может быть отключен в вашем браузере.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Чтобы использовать этот веб-сайт необходимо сначала включить JavaScript в вашем браузере.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Это демонстрационный магазин. Любые заказы, оформленные на этом сайте, не будут обработаны или выполнены.",module,Magento_Backend
 "Report Bugs","Сообщить об ошибке",module,Magento_Backend
 "Store View:","Представление магазина:",module,Magento_Backend
+"Stores Configuration","Конфигурация Магазина",module,Magento_Backend
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Пожалуйста, подтвердите переключение области. Все данные, которые не были сохранены, будут потеряны.",module,Magento_Backend
+"Additional Cache Management","Управление дополнительным кэшем",module,Magento_Backend
+"Flush Catalog Images Cache","Очистка каталога кэша изображений",module,Magento_Backend
+"Pregenerated product images files","Предварительно созданные изображения товаров",module,Magento_Backend
+"Flush JavaScript/CSS Cache","Очистка кеша JavaScript/CSS",module,Magento_Backend
+"Flush Static Files Cache","Очистка кэша статических файлов",module,Magento_Backend
+"Preprocessed view files and static files","Предварительно обработанные файлы просмотра и статические файлы",module,Magento_Backend
 Catalog,Каталог,module,Magento_Backend
 "JavaScript/CSS Cache","Кэш JavaScript/CSS",module,Magento_Backend
+"No records found.","Записей не найдено.",module,Magento_Backend
 Images,Изображения,module,Magento_Backend
 "Big Image","Большое изображение",module,Magento_Backend
 Thumbnail,Мини-изображение,module,Magento_Backend
@@ -206,32 +347,70 @@ Thumbnail,Мини-изображение,module,Magento_Backend
 selected,выбранные,module,Magento_Backend
 "per page","на странице",module,Magento_Backend
 "Previous page","Предыдущая страница",module,Magento_Backend
+"of %1","из %1",module,Magento_Backend
 "Next page","Следующая страница",module,Magento_Backend
+"Export to:","Экспортировать в:",module,Magento_Backend
 Actions,Действия,module,Magento_Backend
 "Mass Actions","Массовые действия",module,Magento_Backend
 "Unselect All","Снять все выделения",module,Magento_Backend
 "Select Visible","Выделить видимые",module,Magento_Backend
 "Unselect Visible","Снять выделение с видимых",module,Magento_Backend
+"Changes have been made to this section that have not been saved.","Были внесены изменения для этого раздела, которые не были сохранены.",module,Magento_Backend
+"This tab contains invalid data. Please resolve this before saving.","Эта вкладка содержит недопустимые данные. Пожалуйста, решите проблему перед сохранением.",module,Magento_Backend
+"The information in this tab has been changed.","На этой вкладке были изменена информация.",module,Magento_Backend
 Loading...,Загрузка...,module,Magento_Backend
 "System Backup","Резервное копирование системы",module,Magento_Backup
 "Database and Media Backup","Резервное копирование БД и файлов Media",module,Magento_Backup
 "Database Backup","Резервное копирование БД",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Архив может быть несжатый с <a href=""%1"">% 2 </a> на системах Windows.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Необходимы дополнительные права для активации режима обслуживания прямо сейчас.",module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Для создания резервной копии, пожалуйста, отмените выбор: «Перевести магазин в режим обслуживания» или обновите свои права.",module,Magento_Backup
+"Something went wrong while putting your store into maintenance mode.","Что-то пошло не так во время перевода вашего магазина в режиме обслуживания.",module,Magento_Backup
+"You need more free space to create a backup.","Вам нужно больше свободного места для создания резервной копии.",module,Magento_Backup
+"You need more permissions to create a backup.","Необходимы дополнительные права для создания резервной копии.",module,Magento_Backup
+"We can't create the backup right now.","Создание резервной копии недоступно в данный момент.",module,Magento_Backup
 Backups,"Резервные копии",module,Magento_Backup
 System,Система,module,Magento_Backup
+Tools,Инструменты,module,Magento_Backup
 Backup,"Резервная копия",module,Magento_Backup
 "We can't delete one or more backups.","Мы не можем удалить одну или несколько резервных копий.",module,Magento_Backup
+failed,"не удалось",module,Magento_Backup
 successful,успешно,module,Magento_Backup
+"You deleted the selected backup(s).","Вы удалили выбранный backup(s).",module,Magento_Backup
+"Please correct the password.","Пожалуйста, исправьте пароль.",module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Для завершения отката, пожалуйста, отмените выбор «Перевести магазин в режим обслуживания» или обновите сови права.",module,Magento_Backup
+"We can't find the backup file.","Файл резервной копии не найден.",module,Magento_Backup
+"Failed to validate FTP.","Не удалось проверить FTP.",module,Magento_Backup
+"You need more permissions to perform a rollback.","Необходимы дополнительные права для выполнения отката.",module,Magento_Backup
 "Failed to rollback.","Не удалось выполнить откат.",module,Magento_Backup
 Database,"База данных",module,Magento_Backup
 "Database and Media","БД и файлы Media",module,Magento_Backup
+"System (excluding Media)","Система (за исключением Media)",module,Magento_Backup
 "You created the system backup.","Вы создали резервную копию системы.",module,Magento_Backup
 "You created the system backup (excluding media).","Вы создали резервную копию системы (за исключением файлов Media).",module,Magento_Backup
 "You created the database and media backup.","Вы создали резервную копию БД и файлов Media.",module,Magento_Backup
 "You created the database backup.","Вы создали резервную копию БД.",module,Magento_Backup
+"Please correct the order of creation for a new backup.","Пожалуйста, исправьте порядок создания новой резервной копии.",module,Magento_Backup
 "The backup file does not exist.","Файл резервной копии не существует.",module,Magento_Backup
+"The backup file path was not specified.","Путь файла резервной копии не был указан.",module,Magento_Backup
+"The backup file ""%1"" does not exist.","Файл резервной копии «%1» не существует.",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","Извините, но мы не можем считать или записать файл резервной копии «%1».",module,Magento_Backup
+"The backup file handler was unspecified.","Обработчик файла резервной копии не был определен.",module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".","Что-то пошло не так во время записи файла резервной копии «%1».",module,Magento_Backup
+"You will lose any data created since the backup was made, including admin users, customers and orders.","Будут потеряны все данные, созданные после резервного копирования, включая администраторов, клиентов и заказы.",module,Magento_Backup
 "Are you sure you want to continue?","Вы уверены, что хотите продолжить?",module,Magento_Backup
+"This may take a few moments.","Это может занять несколько минут.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","Убедитесь, что ваш магазин находится в режиме обслуживания во время резервного копирования.",module,Magento_Backup
 "Backup Name","Название резервной копии",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Пожалуйста, используйте только буквы (a-z или A-Z), цифры (0-9) или пробелы в этой области.",module,Magento_Backup
+"Maintenance mode","Режим обслуживания",module,Magento_Backup
+"Please put your store into maintenance mode during backup.","Пожалуйста, переведите ваш магазин в режим обслуживания во время резервного копирования.",module,Magento_Backup
+Exclude,Исключить,module,Magento_Backup
+"Exclude media folder from backup","Исключить папку media из резервной копии",module,Magento_Backup
+"Please enter the password to confirm rollback.","Пожалуйста, введите пароль для подтверждения отката.",module,Magento_Backup
+"This action cannot be undone.","Это действие нельзя отменить.",module,Magento_Backup
 "User Password","Пароль пользователя",module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.","Пожалуйста, переведите ваш магазин в режим обслуживания во время обработки отката.",module,Magento_Backup
 "Use FTP Connection","Использовать FTP соединение",module,Magento_Backup
 "FTP credentials","Параметры FTP",module,Magento_Backup
 "FTP Host","FTP сервер",module,Magento_Backup
@@ -246,12 +425,27 @@ Year,Год,module,Magento_Braintree
 "Stored Card","Сохраненные карты",module,Magento_Braintree
 "Credit Card Type","Тип кредитной карты",module,Magento_Braintree
 "Credit Card Number","Номер кредитной карты",module,Magento_Braintree
+"Credit card successfully added","Кредитная карточка успешно добавлена",module,Magento_Braintree
+"Something went wrong while saving the card.","Что-то пошло не так при сохранении карты.",module,Magento_Braintree
+"Credit card does not exist","Кредитная карточка не существует",module,Magento_Braintree
+"Delete Credit Card","Удалить кредитную карточку",module,Magento_Braintree
+"There was error deleting the credit card","Ошибка при удалении кредитной карточки",module,Magento_Braintree
+"Credit card successfully deleted","Кредитная карточка успешно удалена",module,Magento_Braintree
+"Edit Credit Card","Изменение кредитной карточки",module,Magento_Braintree
+"My Credit Cards","Мои кредитные карточки",module,Magento_Braintree
+"New Credit Card","Новая кредитная карточка",module,Magento_Braintree
+"There was error during saving card data","Возникла ошибка при сохранении данных карточки",module,Magento_Braintree
 "We can't initialize checkout.","Мы не можем инициализировать оплату.",module,Magento_Braintree
 "We can't place the order.","Мы не можем разместить заказ.",module,Magento_Braintree
 "Incorrect payment method.","Неверный метод оплаты.",module,Magento_Braintree
 "We can't update shipping method.","Мы не можем обновить способ доставки.",module,Magento_Braintree
+"The processor declined your transaction, please re-enter your payment information","Процессор отклонил транзакцию, пожалуйста, повторно введите платежную информацию",module,Magento_Braintree
+"Credit card type is not allowed for your country.","Тип кредитной карточки не доступен для вашей страны.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","Тип кредитной карты не допускается для данного метода оплаты.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","Тип выбранного платежа не допускается для выставления счетов страны.",module,Magento_Braintree
 "Please try again later","Повторите попытку позже",module,Magento_Braintree
 Invoice,Счет,module,Magento_Braintree
+Shipment,Доставка,module,Magento_Braintree
 "--Please Select--","-- Выберите --",module,Magento_Braintree
 "Something went wrong while processing.","Что-то пошло не так во время обработки.",module,Magento_Braintree
 error,ошибка,module,Magento_Braintree
@@ -688,7 +882,9 @@ Import,Импорт,module,Magento_CurrencySymbol
 "Currency Rates","Курсы валют",module,Magento_CurrencySymbol
 System,Система,module,Magento_CurrencySymbol
 "Please specify a website.","Пожалуйста, укажите веб-сайт.",module,Magento_CustomerImportExport
+"Please enter a valid email.","Пожалуйста, введите корректный email.",module,Magento_CustomerImportExport
 "Sign Out",Выход,module,Magento_Customer
+"Sign In",Войти,module,Magento_Customer
 "Edit Address","Изменить адрес",module,Magento_Customer
 "Create Order","Создать заказ",module,Magento_Customer
 "New Customer","Новый клиент",module,Magento_Customer
@@ -721,6 +917,7 @@ Yes,Да,module,Magento_Customer
 "Please enter new password.","Пожалуйста, введите новый пароль.",module,Magento_Customer
 "Confirm your new password.","Подтвердите новый пароль.",module,Magento_Customer
 "Something went wrong while changing the password.","Что-то пошло не так во время изменения пароля.",module,Magento_Customer
+"We're unable to send the password reset email.","Не могу отправить email для сброса пароля.",module,Magento_Customer
 "My Account","Моя учётная запись",module,Magento_Customer
 "Please enter a new password.","Пожалуйста, введите новый пароль.",module,Magento_Customer
 "You updated your password.","Вы обновили ваш пароль.",module,Magento_Customer
@@ -728,11 +925,14 @@ Customers,Покупатели,module,Magento_Customer
 "New Group","Новая группа",module,Magento_Customer
 "Edit Group","Редактировать группу",module,Magento_Customer
 "Page not found.","Страница не найдена.",module,Magento_Customer
+"The password doesn't match this account.","Пароль не соответствует этой учетной записи.",module,Magento_Customer
+"The password can't begin or end with a space.","Пароль не может начинаться или заканчиваться пробелом.",module,Magento_Customer
 Global,Глобальнo,module,Magento_Customer
 "Shipping Address","Адрес доставки",module,Magento_Customer
 "-- Please Select --","-- Выберите --",module,Magento_Customer
 "Please enter a first name.","Пожалуйста, укажите имя.",module,Magento_Customer
 "Please enter a last name.","Пожалуйста, укажите фамилию.",module,Magento_Customer
+"Please correct this email address: ""%1"".","Пожалуйста, исправьте этот email адрес: ""%1"".",module,Magento_Customer
 "Please enter a date of birth.","Пожалуйста, укажите дату рождения.",module,Magento_Customer
 "Please enter a gender.","Пожалуйста, укажите пол.",module,Magento_Customer
 "Customer Group","Группы клиентов",module,Magento_Customer
@@ -795,6 +995,7 @@ Currency,Валюта,module,Magento_Directory
 Continue,Продолжить,module,Magento_Directory
 Error,Ошибка,module,Magento_DownloadableImportExport
 "Downloadable Information","Загружаемая информация",module,Magento_Downloadable
+"Upload Files","Загрузить файлы",module,Magento_Downloadable
 "All Files","Все файлы",module,Magento_Downloadable
 "The link is not available.","Ссылка не доступна.",module,Magento_Downloadable
 attachment,вложение,module,Magento_Downloadable
@@ -858,6 +1059,7 @@ From,от,module,Magento_GiftMessage
 To,До,module,Magento_GiftMessage
 Cancel,Отмена,module,Magento_GiftMessage
 Dynamic,Динамический,module,Magento_GoogleAdwords
+Constant,Константа,module,Magento_GoogleAdwords
 "Grouped Products","Сгруппированные продукты",module,Magento_GroupedProduct
 "Associated Products","Связанные товары",module,Magento_GroupedProduct
 Availability:,Наличие:,module,Magento_GroupedProduct
@@ -870,6 +1072,7 @@ Name,Название,module,Magento_GroupedProduct
 Availability,Наличие,module,Magento_GroupedProduct
 "In stock","В наличии",module,Magento_GroupedProduct
 Export,Экспорт,module,Magento_ImportExport
+"Export Settings","Экспорт настроек",module,Magento_ImportExport
 From,от,module,Magento_ImportExport
 To,До,module,Magento_ImportExport
 Import,Импорт,module,Magento_ImportExport
@@ -890,6 +1093,7 @@ Edit,Редактировать,module,Magento_Integration
 "Are you sure ?","Вы уверены ?",module,Magento_Integration
 Custom,Выборочный,module,Magento_Integration
 All,Все,module,Magento_Integration
+"Filterable (with results)","Фильтруемый (с результатами)",module,Magento_LayeredNavigation
 No,Нет,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Положение атрибута в блоке навигации",module,Magento_LayeredNavigation
 Previous,Предыдущий,module,Magento_LayeredNavigation
@@ -1003,6 +1207,7 @@ Url,URL-адрес,module,Magento_ProductVideo
 "Click here to add videos.","Нажмите здесь, чтобы добавить видео.",module,Magento_ProductVideo
 "New Video","Новое видео",module,Magento_ProductVideo
 "Delete image","Удалить изображение",module,Magento_ProductVideo
+"Unable to save address. Please, check input data.","Не удается сохранить адрес. Пожалуйста, проверьте входные данные.",module,Magento_Quote
 Shipping,Доставка,module,Magento_Quote
 Subtotal,"Промежуточный итог",module,Magento_Quote
 Discount,Скидка,module,Magento_Quote
@@ -1219,6 +1424,7 @@ Close,Закрыть,module,Magento_Sales
 "Add to Cart","Добавить в корзину",module,Magento_Sales
 Search,Поиск,module,Magento_Sales
 "Search Term","Поисковый запрос",module,Magento_Search
+Results,Результаты,module,Magento_Search
 Search,Поиск,module,Magento_Search
 No,Нет,module,Magento_Search
 Yes,Да,module,Magento_Search
@@ -1455,9 +1661,12 @@ Password:,Пароль:,theme,frontend/Magento/luma
 "Order History","История заказов",theme,frontend/Magento/luma
 "View past orders","Просмотр предыдущих заказов",theme,frontend/Magento/luma
 "About Us","О нас",theme,frontend/Magento/luma
+"Customer Service","Обслуживание клиентов",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Часы работы: <br /> <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Shipping Info","Информация по доставке",theme,frontend/Magento/luma
 "Payment Method","Метод оплаты",theme,frontend/Magento/luma
 "Shipping Method","Способ доставки",theme,frontend/Magento/luma
+"We could not detect a size.","Мы не смогли обнаружить размер.",module,Magento_Backend
 Ok,Oк,module,Magento_Catalog
 Cancel,Отмена,module,Magento_Catalog
 "Incl. Tax","Включая налог",module,Magento_ConfigurableProduct
@@ -1474,37 +1683,172 @@ Ok,Oк,module,Magento_Sales
 "HTML tags are not allowed.","HTML теги не разрешены.",module,Magento_Ui
 Close,Закрыть,module,Magento_Ui
 Ok,Oк,module,Magento_Ui
+"Use HTTPS to Get Feed","Использовать HTTPS для Feed-потока",module,Magento_AdminNotification
+"Update Frequency","Частота обновления",module,Magento_AdminNotification
+"Last Update","Последнее обновление",module,Magento_AdminNotification
+Severity,Серьезность,module,Magento_AdminNotification
+"Date Added",Добавлено,module,Magento_AdminNotification
+Message,Сообщение,module,Magento_AdminNotification
 Actions,Действия,module,Magento_AdminNotification
+"Authorize.net Direct Post","Прямое Сообщение Authorize.NET",module,Magento_Authorizenet
 Enabled,Включено,module,Magento_Authorizenet
+"Payment Action","Тип платежа",module,Magento_Authorizenet
+Title,Название,module,Magento_Authorizenet
+"API Login ID","ID входа API",module,Magento_Authorizenet
+"Transaction Key","Ключ транзакции",module,Magento_Authorizenet
+"New Order Status","Новый статус заказа",module,Magento_Authorizenet
 "Test Mode","Тестовый режим",module,Magento_Authorizenet
+"Gateway URL","шлюз URL",module,Magento_Authorizenet
+"Transaction Details URL","Детали транзакции URL",module,Magento_Authorizenet
+"Accepted Currency","Принимаемая валюта",module,Magento_Authorizenet
+Debug,Отладка,module,Magento_Authorizenet
+"Email Customer","E-mail клиента",module,Magento_Authorizenet
+"Merchant's Email","Email продавца",module,Magento_Authorizenet
+"Credit Card Types","Тип кредитной карты",module,Magento_Authorizenet
+"Credit Card Verification","Верификация кредитной карты",module,Magento_Authorizenet
+"Payment from Applicable Countries","Оплата из подходящих стран",module,Magento_Authorizenet
+"Payment from Specific Countries","Оплата из конкретных стран",module,Magento_Authorizenet
+"Minimum Order Total","Сумма минимального заказа",module,Magento_Authorizenet
+"Maximum Order Total","Сумма максимального заказа",module,Magento_Authorizenet
 "Sort Order","Порядок Сортировки",module,Magento_Authorizenet
+Services,Сервисы,module,Magento_Backend
+Advanced,Расширенный,module,Magento_Backend
+"Disable Modules Output","Отключение модулей вывода",module,Magento_Backend
+"Store Email Addresses","Email магазина",module,Magento_Backend
+"Custom Email 1","Пользовательский Email 1",module,Magento_Backend
 "Sender Email","Электронная почта отправителя",module,Magento_Backend
 "Sender Name","Имя отправителя",module,Magento_Backend
+"Custom Email 2","Пользовательский Email 2",module,Magento_Backend
+"General Contact","Общий контакт",module,Magento_Backend
+"Sales Representative","Торговый представитель",module,Magento_Backend
+"Customer Support","Поддержка клиентов",module,Magento_Backend
 Design,Дизайн,module,Magento_Backend
 "Design Theme","Тема Дизайн",module,Magento_Backend
 "User-Agent Exceptions","User-Agent исключения",module,Magento_Backend
+Pagination,Пагинация,module,Magento_Backend
+"Pagination Frame","Паганиция фреймов",module,Magento_Backend
+"How many links to display at once.","Сколько ссылок, чтобы отобразить сразу.",module,Magento_Backend
+"Pagination Frame Skip","Пропуск паганиции фреймов",module,Magento_Backend
+"Anchor Text for Previous","Якорный текст для перехода к предыдущим",module,Magento_Backend
+"Anchor Text for Next","Якорный текст для следующей",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Альтернативный текст для следующей ссылки на разбиение на страницы меню. Если пустое, будет использоваться изображение стрелки по умолчанию.",module,Magento_Backend
 Developer,Разработчик,module,Magento_Backend
+Debug,Отладка,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Включить шаблон подсказок путей для магазина",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Включить шаблон подсказок путей для администратора",module,Magento_Backend
+"Add Block Names to Hints","Добавить блок имен для подсказок",module,Magento_Backend
+"Template Settings","Параметры шаблона",module,Magento_Backend
+"Allow Symlinks","Разрешить ссылки",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Внимание! Включение этой функции на производственных средах не рекомендуется, поскольку он представляет потенциальную угрозу безопасности.",module,Magento_Backend
+"Minify Html","Минификация Html",module,Magento_Backend
+"Translate Inline","Перевести: Inline",module,Magento_Backend
+"Enabled for Storefront","Включено для фронтэнда",module,Magento_Backend
+"Enabled for Admin","Включено для админки",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Перевод, блоки и другие кэши вывода должны быть отключены для фронэнда и админки встроенных переводов.",module,Magento_Backend
+"JavaScript Settings","Настройки JavaScript",module,Magento_Backend
+"Merge JavaScript Files","Объединение файлов JavaScript",module,Magento_Backend
+"Minify JavaScript Files","Минифицировать файлы JavaScript",module,Magento_Backend
+"CSS Settings","CSS настройки",module,Magento_Backend
+"Merge CSS Files","Группирование файлов CSS",module,Magento_Backend
+"Minify CSS Files","Минификация CSS-файлов",module,Magento_Backend
+"Image Processing Settings","Настройки обработки изображений",module,Magento_Backend
+"Static Files Settings","Настройки статических файлов",module,Magento_Backend
+"Sign Static Files","Регистрация статических файлов",module,Magento_Backend
+"Country Options","Параметры страны",module,Magento_Backend
+"Allow Countries","Разрешить странам",module,Magento_Backend
+"Default Country","Страна по умолчанию",module,Magento_Backend
+"European Union Countries","Страны Европейского Союза",module,Magento_Backend
+"Top destinations","Популярные направления",module,Magento_Backend
+"Locale Options","Настройки локализации",module,Magento_Backend
+Timezone,"Часовой пояс",module,Magento_Backend
+Locale,Локализация,module,Magento_Backend
+"First Day of Week","Первый день недели",module,Magento_Backend
+"Weekend Days","Выходные дни",module,Magento_Backend
 "Store Name","Название магазина",module,Magento_Backend
 "Store Phone Number","Контактный телефон магазина",module,Magento_Backend
+"Store Hours of Operation","Часы работы магазина",module,Magento_Backend
 Country,Страна,module,Magento_Backend
 Region/State,Область,module,Magento_Backend
 "ZIP/Postal Code","Почтовый Индекс",module,Magento_Backend
 City,Город,module,Magento_Backend
+"Street Address","Почтовый адрес",module,Magento_Backend
+"Street Address Line 2","Строка адреса 2",module,Magento_Backend
+"VAT Number","Номер плательщика НДС",module,Magento_Backend
+"Single-Store Mode","Режим одного магазина",module,Magento_Backend
+"Enable Single-Store Mode","Включить режим одного магазина",module,Magento_Backend
+"This setting will not be taken into account if system has more than one store view.","Этот параметр не будет приниматься во внимание, если система имеет более чем одно представление магазина.",module,Magento_Backend
+"Mail Sending Settings","Настройки отправки почты",module,Magento_Backend
+"Disable Email Communications","Отключить сообщения электронной почты",module,Magento_Backend
+Host,Хост,module,Magento_Backend
 "Port (25)","Порт (25)",module,Magento_Backend
+"Set Return-Path","Задать путь возврата",module,Magento_Backend
+"Return-Path Email","Электронная почта пути возврата",module,Magento_Backend
+Admin,Админ,module,Magento_Backend
+"Admin User Emails","E-mail администраторов",module,Magento_Backend
+"Forgot Password Email Template","Забыли пароль? Шаблон E-mail",module,Magento_Backend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Шаблон E-mail выбран на основе темы резервного варианта при выборе параметра «По умолчанию».",module,Magento_Backend
+"Forgot and Reset Email Sender","Забыли и сброс E-mail отправителя",module,Magento_Backend
+"Recovery Link Expiration Period (days)","Срок действия ссылки восстановления (дней)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Пожалуйста, введите число 1 и больше.",module,Magento_Backend
+"Startup Page","Стартовая страница",module,Magento_Backend
+"Use Custom Admin URL","Использование пользовательского администратора URL",module,Magento_Backend
+"Custom Admin URL","Пользовательский Admin URL",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Убедитесь, что Base URL заканчивается на «/» (косая черта), например http://yourdomain/magento/",module,Magento_Backend
+"Use Custom Admin Path","Использование пользовательского Admin Path",module,Magento_Backend
+"Custom Admin Path","Пользовательский путь администратора",module,Magento_Backend
+"You will have to sign in after you save your custom admin path.","Вы должны войти в систему после того, как сохраните свой пользовательский путь администратора.",module,Magento_Backend
 Security,Безопасноть,module,Magento_Backend
+"Add Secret Key to URLs","Добавьте секретный ключ к URL-адресам",module,Magento_Backend
+"Login is Case Sensitive","Логин чувствителен к регистру",module,Magento_Backend
 "Admin Session Lifetime (seconds)","Время жизни сеанса администратора (в секундах)",module,Magento_Backend
 "Values less than 60 are ignored.","Значения меньше 60 игнорируются.",module,Magento_Backend
+"Enable Charts","Включить диаграммы",module,Magento_Backend
 Web,Веб,module,Magento_Backend
+"Url Options","Параметры URL-адреса",module,Magento_Backend
+"Add Store Code to Urls","Добавить код магазина для URL-адресов",module,Magento_Backend
+"Auto-redirect to Base URL","Автоматическая переадресация на Base URL",module,Magento_Backend
+"Search Engine Optimization","Поисковая оптимизация",module,Magento_Backend
+"Use Web Server Rewrites","Использование Web Server Rewrites",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Укажите место URL или {{base_url}}.",module,Magento_Backend
+"Base URL for Static View Files","Base URL для просмотра статических файлов",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Может быть пустым или начните с места {{unsecure_base_url}}.",module,Magento_Backend
+"Base URL for User Media Files","Base URL для пользователей мультимедийных файлов",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Укажите место URL или {{base_url}} или {{unsecure_base_url}}.",module,Magento_Backend
+"Secure Base URL for Static View Files","Secure Base URL для просмотра статических файлов",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Может быть пустым или начинаться с места {{secure_base_url}} или {{unsecure_base_url}}.",module,Magento_Backend
+"Secure Base URL for User Media Files","Secure Base URL для пользователей мультимедийных файлов",module,Magento_Backend
+"Use Secure URLs on Storefront","Используйте Secure Base URLs на фронэнде",module,Magento_Backend
+"Use Secure URLs in Admin","Используйте Secure URLs в админке",module,Magento_Backend
+"Offloader header","Заголовок Offloader-разгрузки",module,Magento_Backend
+"Default Pages","Страницы по умолчанию",module,Magento_Backend
+"Default Web URL","Web URL по умолчанию",module,Magento_Backend
+"Default No-route URL","No-route URL по умолчанию",module,Magento_Backend
+"Session Validation Settings","Параметры сеанса проверки",module,Magento_Backend
+"Validate REMOTE_ADDR","Проверка REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","Проверка HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","Проверка HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","Проверка HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","Использование SID во фронтэнде",module,Magento_Backend
+"Allows customers to stay logged in when switching between different stores.","Позволяет клиентам оставаться зарегистрированным при переключении между различными хранилищами.",module,Magento_Backend
+"Cache Type","Тип кэша",module,Magento_Backend
+Description,Описание,module,Magento_Backend
 Tags,Метки,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> Ошибка 404</h1> <p>Страница не найдена.</p>",module,Magento_Backend
+"Scheduled Backup Settings","Параметры архивации по расписанию",module,Magento_Backup
+"Enable Scheduled Backup","Включение резервного копирования по расписанию",module,Magento_Backup
+"Backup Type","Тип резервного копирования",module,Magento_Backup
 "Start Time","Время начала",module,Magento_Backup
 Frequency,Периодичность,module,Magento_Backup
+"Maintenance Mode","Режим обслуживания",module,Magento_Backup
 Delete,Удалить,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?","Вы уверены, что хотите удалить выбранный backup(s)?",module,Magento_Backup
 Time,Время,module,Magento_Backup
 Name,Название,module,Magento_Backup
+Size(bytes),Размер(байт),module,Magento_Backup
 Type,Тип,module,Magento_Backup
+Download,Скачать,module,Magento_Backup
 Action,Действие,module,Magento_Backup
+Rollback,Откат,module,Magento_Backup
 "Capture action","Захват действий",module,Magento_Braintree
 "New Order Status","Новый статус заказа",module,Magento_Braintree
 "Allow Duplicate Cards","Разрешить повторяющиеся карты",module,Magento_Braintree
@@ -1551,6 +1895,7 @@ Contacts,Контакты,module,Magento_Contact
 "Contact Us","Обратная связь",module,Magento_Contact
 Phone,"Номер телефона",module,Magento_Customer
 ZIP,Индекс,module,Magento_Customer
+"Last Logged In","Последнее посещение",module,Magento_Customer
 "First Name",Имя,module,Magento_Customer
 "Last Name",Фамилия,module,Magento_Customer
 Type,Тип,module,Magento_Customer
