@@ -342,6 +342,7 @@ Database,"База данных",module,Magento_Backup
 "Magento root directory","Корневой каталог Magento",module,Magento_Backup
 "Create Backup","Создать резервную копию",module,Magento_Backup
 Country,Страна,module,Magento_Braintree
+"Allowed Credit Card Types","Разрешенные типы кредитных карт",module,Magento_Braintree
 "Add Rule","Добавить правило",module,Magento_Braintree
 "Stored Card","Сохраненные карты",module,Magento_Braintree
 "Credit Card Type","Тип кредитной карты",module,Magento_Braintree
@@ -358,6 +359,7 @@ Country,Страна,module,Magento_Braintree
 "Please try again later","Повторите попытку позже",module,Magento_Braintree
 "Add new card","Добавить новую карту",module,Magento_Braintree
 "Expiration Date","Дата окончания срока действия",module,Magento_Braintree
+"Card Verification Number","Проверочный код карты",module,Magento_Braintree
 "Cardholder Name","Имя владельца карты",module,Magento_Braintree
 Delete,Удалить,module,Magento_Braintree
 Back,Вернуться,module,Magento_Braintree
@@ -377,18 +379,45 @@ No,Нет,module,Magento_Braintree
 Edit,Редактировать,module,Magento_Braintree
 "Percent Discount","Процент скидки",module,Magento_Bundle
 "-- Select --","-- Выберите --",module,Magento_Bundle
+Dynamic,Динамический,module,Magento_Bundle
+Fixed,Исправлено,module,Magento_Bundle
+"Create New Option","Создать новую опцию",module,Magento_Bundle
+"Bundle Items","Элементы комплекта",module,Magento_Bundle
+"Add Products to Option","Добавить товар для опции",module,Magento_Bundle
 Close,Закрыть,module,Magento_Bundle
+"Delete Option","Удалить опцию",module,Magento_Bundle
 Product,Товар,module,Magento_Bundle
 SKU,Артикул,module,Magento_Bundle
 Price,Цена,module,Magento_Bundle
 Delete,Удалить,module,Magento_Bundle
 "Use Default Value","Использовать значение по умолчанию",module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","Нет определенного модуля подготовки отчетов для типа опции «%1».",module,Magento_Bundle
+"As Low as","Так же низко как",module,Magento_Bundle
+"Price Range","Диапазон цен",module,Magento_Bundle
+"Please specify product option(s).","Пожалуйста, укажите вариант(ы) товара.",module,Magento_Bundle
+"The required options you selected are not available.","Необходимые параметры, выбранные вами недоступны.",module,Magento_Bundle
+"Please select all required options.","Пожалуйста, выберите все необходимые параметры.",module,Magento_Bundle
 N/A,Н/Д,module,Magento_Bundle
 Percent,Процент,module,Magento_Bundle
 None,Нет,module,Magento_Bundle
+"Choose a selection...","Выберете выбранное",module,Magento_Bundle
+"Ship Bundle Items","Вставить комплект товара",module,Magento_Bundle
+Separately,Отдельно,module,Magento_Bundle
 Together,Вместе,module,Magento_Bundle
+"Option Title","Название параметра",module,Magento_Bundle
+"Store View Title","Название представления магазина",module,Magento_Bundle
 "Input Type","Тип ввода",module,Magento_Bundle
+Required,Обязательно,module,Magento_Bundle
+Position,Позиция,module,Magento_Bundle
+"There are no products in this option.","В этом варианте нет товаров.",module,Magento_Bundle
+"New Option","Новый параметр",module,Magento_Bundle
+Default,"По умолчанию",module,Magento_Bundle
 Name,Название,module,Magento_Bundle
+"Price Type","Тип цены",module,Magento_Bundle
+"Default Quantity","Количество по умолчанию",module,Magento_Bundle
+"User Defined","Определяемые пользователем",module,Magento_Bundle
+Ordered,Заказать,module,Magento_Bundle
+Invoiced,"Выставлен счет",module,Magento_Bundle
 Canceled,Отменен,module,Magento_Bundle
 From,от,module,Magento_Bundle
 To,До,module,Magento_Bundle
@@ -1316,6 +1345,7 @@ Edit,Редактировать,module,Magento_Wishlist
 Back,Вернуться,module,Magento_Wishlist
 "* Required Fields","* Обязательные поля",module,Magento_Wishlist
 Total:,Всего:,module,Magento_Checkout
+"Add Selected Products","Добавить выбранныетовары",module,Magento_Bundle
 Cancel,Отмена,module,Magento_Catalog
 "Incl. Tax","Включая налог",module,Magento_ConfigurableProduct
 Allow,Разрешить,module,Magento_Integration
@@ -1485,6 +1515,8 @@ Type,Тип,module,Magento_Backup
 Download,Скачать,module,Magento_Backup
 Action,Действие,module,Magento_Backup
 Rollback,Откат,module,Magento_Backup
+"Enable this Solution","Включить это решение",module,Magento_Braintree
+"Enable PayPal through Braintree","Включить PayPal через Braintree",module,Magento_Braintree
 "Capture action","Захват действий",module,Magento_Braintree
 "Allow Duplicate Cards","Разрешить повторяющиеся карты",module,Magento_Braintree
 "Use Cache","Использование кэша",module,Magento_Braintree
