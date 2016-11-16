@@ -419,6 +419,7 @@ Exclude,Исключить,module,Magento_Backup
 "Magento root directory","Корневой каталог Magento",module,Magento_Backup
 "Create Backup","Создать резервную копию",module,Magento_Backup
 Country,Страна,module,Magento_Braintree
+"Allowed Credit Card Types","Разрешенные типы кредитных карт",module,Magento_Braintree
 "Add Rule","Добавить правило",module,Magento_Braintree
 Month,Месяц,module,Magento_Braintree
 Year,Год,module,Magento_Braintree
@@ -436,6 +437,7 @@ Year,Год,module,Magento_Braintree
 "New Credit Card","Новая кредитная карточка",module,Magento_Braintree
 "There was error during saving card data","Возникла ошибка при сохранении данных карточки",module,Magento_Braintree
 "We can't initialize checkout.","Мы не можем инициализировать оплату.",module,Magento_Braintree
+"Please agree to all the terms and conditions before placing the order.","Пожалуйста, согласитесь со всеми условиями до размещения заказа.",module,Magento_Braintree
 "We can't place the order.","Мы не можем разместить заказ.",module,Magento_Braintree
 "Incorrect payment method.","Неверный метод оплаты.",module,Magento_Braintree
 "We can't update shipping method.","Мы не можем обновить способ доставки.",module,Magento_Braintree
@@ -446,11 +448,14 @@ Year,Год,module,Magento_Braintree
 "Please try again later","Повторите попытку позже",module,Magento_Braintree
 Invoice,Счет,module,Magento_Braintree
 Shipment,Доставка,module,Magento_Braintree
+Authorize,Авторизировать,module,Magento_Braintree
+"Authorize and Capture","Авторизировать и записать",module,Magento_Braintree
 "--Please Select--","-- Выберите --",module,Magento_Braintree
 "Something went wrong while processing.","Что-то пошло не так во время обработки.",module,Magento_Braintree
 error,ошибка,module,Magento_Braintree
 "Add new card","Добавить новую карту",module,Magento_Braintree
 "Expiration Date","Дата окончания срока действия",module,Magento_Braintree
+"Card Verification Number","Проверочный код карты",module,Magento_Braintree
 or,или,module,Magento_Braintree
 "Cardholder Name","Имя владельца карты",module,Magento_Braintree
 Delete,Удалить,module,Magento_Braintree
@@ -475,22 +480,61 @@ No,Нет,module,Magento_Braintree
 Edit,Редактировать,module,Magento_Braintree
 "Percent Discount","Процент скидки",module,Magento_Bundle
 "-- Select --","-- Выберите --",module,Magento_Bundle
+Dynamic,Динамический,module,Magento_Bundle
+Fixed,Исправлено,module,Magento_Bundle
+"Create New Option","Создать новую опцию",module,Magento_Bundle
+"Bundle Items","Элементы комплекта",module,Magento_Bundle
+"Add Products to Option","Добавить товар для опции",module,Magento_Bundle
 Close,Закрыть,module,Magento_Bundle
+"Delete Option","Удалить опцию",module,Magento_Bundle
 "What are you looking for?","Что вы ищете?",module,Magento_Bundle
 Product,Товар,module,Magento_Bundle
 SKU,Артикул,module,Magento_Bundle
 Price,Цена,module,Magento_Bundle
 Delete,Удалить,module,Magento_Bundle
 "Use Default Value","Использовать значение по умолчанию",module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","Нет определенного модуля подготовки отчетов для типа опции «%1».",module,Magento_Bundle
+"Only implemented for bundle product","Работает только для комплекта товара",module,Magento_Bundle
+"Product with specified sku: ""%1"" is not a bundle product","Товар с указанным sku: «%1»-не является товаром даного комплекта",module,Magento_Bundle
+"Bundle product could not contain another composite product","Товар комплекта не может содержать другой составной товар",module,Magento_Bundle
+"Id field of product link is required","требуется Id поле ссылки товара",module,Magento_Bundle
+"Can not find product link with id ""%1""","Не могу найти ссылку товара с идентификатором «%1»",module,Magento_Bundle
+"Could not save child: ""%1""","Не удалось сохранить потомка: «%1»",module,Magento_Bundle
+"Product with specified sku: ""%1"" does not contain option: ""%2""","Товар с указанным sku: «%1» не содержит параметр: «%2»",module,Magento_Bundle
+"Child with specified sku: ""%1"" already assigned to product: ""%2""","Потомок с указанной sku: «%1» уже назначен к товару: «%2»",module,Magento_Bundle
+"Product with specified sku: %1 is not a bundle product","Товар с указанным sku: «%1»-не является товаром даного комплекта",module,Magento_Bundle
 "Requested option doesn't exist","Запрошенный параметр не существует",module,Magento_Bundle
+"Cannot delete option with id %1","Не удается удалить опцию с идентификатором %1",module,Magento_Bundle
+"Could not save option","Не удалось сохранить опцию",module,Magento_Bundle
+"As Low as","Так же низко как",module,Magento_Bundle
+"Price Range","Диапазон цен",module,Magento_Bundle
+"Please specify product option(s).","Пожалуйста, укажите вариант(ы) товара.",module,Magento_Bundle
+"The options you selected are not available.","Выбранные параметры недоступны.",module,Magento_Bundle
+"The required options you selected are not available.","Необходимые параметры, выбранные вами недоступны.",module,Magento_Bundle
+"Please select all required options.","Пожалуйста, выберите все необходимые параметры.",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","Мы не может добавить этот элемент в корзину прямо сейчас.",module,Magento_Bundle
 N/A,Н/Д,module,Magento_Bundle
 Percent,Процент,module,Magento_Bundle
 None,Нет,module,Magento_Bundle
 Quantity:,Количество:,module,Magento_Bundle
+"Choose a selection...","Выберете выбранное",module,Magento_Bundle
+"Ship Bundle Items","Вставить комплект товара",module,Magento_Bundle
+Separately,Отдельно,module,Magento_Bundle
 Together,Вместе,module,Magento_Bundle
+"Option Title","Название параметра",module,Magento_Bundle
+"Store View Title","Название представления магазина",module,Magento_Bundle
 "Input Type","Тип ввода",module,Magento_Bundle
+Required,Обязательно,module,Magento_Bundle
+Position,Позиция,module,Magento_Bundle
+"There are no products in this option.","В этом варианте нет товаров.",module,Magento_Bundle
+"New Option","Новый параметр",module,Magento_Bundle
+Default,"По умолчанию",module,Magento_Bundle
 Name,Название,module,Magento_Bundle
+"Price Type","Тип цены",module,Magento_Bundle
+"Default Quantity","Количество по умолчанию",module,Magento_Bundle
+"User Defined","Определяемые пользователем",module,Magento_Bundle
+Ordered,Заказать,module,Magento_Bundle
+Invoiced,"Выставлен счет",module,Magento_Bundle
 Canceled,Отменен,module,Magento_Bundle
 From,от,module,Magento_Bundle
 To,До,module,Magento_Bundle
@@ -1667,6 +1711,7 @@ Password:,Пароль:,theme,frontend/Magento/luma
 "Payment Method","Метод оплаты",theme,frontend/Magento/luma
 "Shipping Method","Способ доставки",theme,frontend/Magento/luma
 "We could not detect a size.","Мы не смогли обнаружить размер.",module,Magento_Backend
+"Add Selected Products","Добавить выбранныетовары",module,Magento_Bundle
 Ok,Oк,module,Magento_Catalog
 Cancel,Отмена,module,Magento_Catalog
 "Incl. Tax","Включая налог",module,Magento_ConfigurableProduct
@@ -1849,11 +1894,36 @@ Type,Тип,module,Magento_Backup
 Download,Скачать,module,Magento_Backup
 Action,Действие,module,Magento_Backup
 Rollback,Откат,module,Magento_Backup
+"Enable this Solution","Включить это решение",module,Magento_Braintree
+"Enable PayPal through Braintree","Включить PayPal через Braintree",module,Magento_Braintree
+"Basic Braintree Settings","Основные настройки Braintree",module,Magento_Braintree
+Title,Название,module,Magento_Braintree
+Environment,"Окружающая среда",module,Magento_Braintree
+"Payment Action","Тип платежа",module,Magento_Braintree
+"Merchant Account ID","Идентификатор Merchant аккаунта",module,Magento_Braintree
+"Public Key","Открытый ключ",module,Magento_Braintree
+"Private Key","Секретный ключ",module,Magento_Braintree
+"Advanced Braintree Settings","Дополнительные параметры Braintree",module,Magento_Braintree
+Debug,Отладка,module,Magento_Braintree
 "Capture action","Захват действий",module,Magento_Braintree
 "New Order Status","Новый статус заказа",module,Magento_Braintree
 "Allow Duplicate Cards","Разрешить повторяющиеся карты",module,Magento_Braintree
+"CVV Verification","Проверка CVV",module,Magento_Braintree
+"Credit Card Types","Типы кредитных карт",module,Magento_Braintree
+"Advanced Fraud Protection","Улучшенная защита от мошенничества",module,Magento_Braintree
 "Use Cache","Использование кэша",module,Magento_Braintree
 "Sort Order","Порядок Сортировки",module,Magento_Braintree
+"Country Specific Settings","Определенные параметры стран",module,Magento_Braintree
+"Payment from Applicable Countries","Оплата из допустимых стран",module,Magento_Braintree
+"Payment from Specific Countries","Оплата из определенных стран",module,Magento_Braintree
+"Country Specific Credit Card Types","Типы определенных кредитных карт страны",module,Magento_Braintree
+"PayPal through Braintree","PayPal через Braintree",module,Magento_Braintree
+"Override Merchant Name","Переопределить название Merchant",module,Magento_Braintree
+"Display on Shopping Cart","Показать в корзине",module,Magento_Braintree
+"Require Customer's Billing Address","Требуется платежный адрес клиента",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Разрешить редактирование адреса доставки введенного во время оформления заказа через PayPal",module,Magento_Braintree
+"3D Secure Verification Settings","Настройки проверки 3D Secure",module,Magento_Braintree
+"3D Secure Verification","Верификация 3D Secure",module,Magento_Braintree
 Font,Шрифт,module,Magento_Captcha
 "Displaying Mode","Режим отображения",module,Magento_Captcha
 "Number of Symbols","Количество символов",module,Magento_Captcha
