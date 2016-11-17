@@ -535,20 +535,45 @@ Name,Название,module,Magento_Bundle
 "User Defined","Определяемые пользователем",module,Magento_Bundle
 Ordered,Заказать,module,Magento_Bundle
 Invoiced,"Выставлен счет",module,Magento_Bundle
+Shipped,Отправлено,module,Magento_Bundle
+Refunded,Возвращено,module,Magento_Bundle
 Canceled,Отменен,module,Magento_Bundle
+"As low as","Так же низко как",module,Magento_Bundle
+"Regular Price","Обычная цена",module,Magento_Bundle
 From,от,module,Magento_Bundle
 To,До,module,Magento_Bundle
+"Buy %1 with %2 discount each","Купить %1 с %2 со скидкой",module,Magento_Bundle
+"Go back to product details","Вернуться к информации о товаре",module,Magento_Bundle
+"Customize and Add to Cart","Настроить и добавить в корзину",module,Magento_Bundle
 "* Required Fields","* Обязательные поля",module,Magento_Bundle
+"Your Customization","Ваши настройки",module,Magento_Bundle
 Availability,Наличие,module,Magento_Bundle
 "In stock","В наличии",module,Magento_Bundle
 "Out of stock","Нет в наличии",module,Magento_Bundle
+Summary,Суммарно,module,Magento_Bundle
 Availability:,Наличие:,module,Magento_Bundle
 Quantity,Количество,module,Magento_Bundle
+"Customize %1","Настройка %1",module,Magento_Bundle
+"No options of this product are available.","Нет доступных опций для этого продукта.",module,Magento_Bundle
+"Gift Message",Сообщение,module,Magento_Bundle
+From:,От:,module,Magento_Bundle
+To:,До:,module,Magento_Bundle
 Message:,Сообщение:,module,Magento_Bundle
 "Product Name","Название товара",module,Magento_Bundle
 Subtotal,"Промежуточный итог",module,Magento_Bundle
+"Discount Amount","Сумма скидки",module,Magento_Bundle
+"Row Total","Всего строк",module,Magento_Bundle
+"Qty Invoiced","Кол-во выставленных счетов",module,Magento_Bundle
+"Qty Shipped","Кол-во отправки",module,Magento_Bundle
 Always,Всегда,module,Magento_Captcha
+"After number of attempts to login","После нескольких попыток авторизоваться",module,Magento_Captcha
+"Provided form does not exist","При условии, если форма не существует",module,Magento_Captcha
+"Incorrect CAPTCHA","Некорректная CAPTCHA",module,Magento_Captcha
+"Incorrect CAPTCHA.","Некорректная CAPTCHA.",module,Magento_Captcha
+"Please enter the letters from the image","Пожалуйста, введите буквы с картинки",module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>Внимание</strong>: Captcha чувствительна к регистру в полях ввода данных.",module,Magento_Captcha
 "Reload captcha","Обновить captcha",module,Magento_Captcha
+"Please type the letters below","Пожалуйста, введите буквы ниже",module,Magento_Captcha
 "File directory '%1' is not readable.","Каталог '% 1' не доступен для чтения.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Каталог '% 1' не доступен для записи.",module,Magento_CatalogImportExport
 "File '%1' was not found or has read restriction.","Файл «%1» не существует или у вас нет прав на чтение.",module,Magento_CatalogImportExport
@@ -1711,6 +1736,8 @@ Password:,Пароль:,theme,frontend/Magento/luma
 "Payment Method","Метод оплаты",theme,frontend/Magento/luma
 "Shipping Method","Способ доставки",theme,frontend/Magento/luma
 "We could not detect a size.","Мы не смогли обнаружить размер.",module,Magento_Backend
+"Add Products to New Option","Добавить товары новому варианту",module,Magento_Bundle
+"Add Products to Option ""%1""","Добавить товары в вариант «%1»",module,Magento_Bundle
 "Add Selected Products","Добавить выбранныетовары",module,Magento_Bundle
 Ok,Oк,module,Magento_Catalog
 Cancel,Отмена,module,Magento_Catalog
@@ -1924,9 +1951,19 @@ Debug,Отладка,module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Разрешить редактирование адреса доставки введенного во время оформления заказа через PayPal",module,Magento_Braintree
 "3D Secure Verification Settings","Настройки проверки 3D Secure",module,Magento_Braintree
 "3D Secure Verification","Верификация 3D Secure",module,Magento_Braintree
+"Enable CAPTCHA in Admin","Включить CAPTCHA в админ-панели",module,Magento_Captcha
 Font,Шрифт,module,Magento_Captcha
+Forms,Формы,module,Magento_Captcha
 "Displaying Mode","Режим отображения",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","Число неудачных попыток входа в систему",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","Если указано значение 0, CAPTCHA в форме авторизации будет всегда доступна.",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","CAPTCHA время ожидания (в минутах)",module,Magento_Captcha
 "Number of Symbols","Количество символов",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Пожалуйста, укажите 8 символов. Допустим диапазон значений (например, 3-5)",module,Magento_Captcha
+"Symbols Used in CAPTCHA","Символы, используемые в CAPTCHA",module,Magento_Captcha
+"Case Sensitive","С учётом регистра",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","Включить CAPTCHA в фронтэнде",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA для форм «Создать пользователя» и «Забыли пароль» всегда включена.",module,Magento_Captcha
 "Manage Stock","Управление наличием",module,Magento_CatalogInventory
 Quantity,Количество,module,Magento_CatalogInventory
 Rule,Правило,module,Magento_CatalogRule
