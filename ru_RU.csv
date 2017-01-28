@@ -897,6 +897,8 @@ Yes,Да,module,Magento_Config
 Delete,Удалить,module,Magento_Config
 Stores,Магазины,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Добавление настраиваемых атрибутов в текущий набор атрибутов («%1»)",module,Magento_ConfigurableProduct
+Save,Сохранить,module,Magento_ConfigurableProduct
+"Save & New","Сохранить и создать",module,Magento_ConfigurableProduct
 Image,Изображение,module,Magento_ConfigurableProduct
 Name,Название,module,Magento_ConfigurableProduct
 SKU,Артикул,module,Magento_ConfigurableProduct
@@ -904,6 +906,7 @@ Price,Цена,module,Magento_ConfigurableProduct
 Quantity,Количество,module,Magento_ConfigurableProduct
 Weight,Вес,module,Magento_ConfigurableProduct
 Status,Статус,module,Magento_ConfigurableProduct
+Attributes,Атрибуты,module,Magento_ConfigurableProduct
 Actions,Действия,module,Magento_ConfigurableProduct
 "Associated Products","Связанные товары",module,Magento_ConfigurableProduct
 "Select All","Выбрать всё",module,Magento_ConfigurableProduct
