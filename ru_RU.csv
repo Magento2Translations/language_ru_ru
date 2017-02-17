@@ -439,28 +439,6 @@ Authorize,Авторизировать,module,Magento_Braintree
 "Authorize and Capture","Авторизировать и записать",module,Magento_Braintree
 "--Please Select--","-- Выберите --",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Пожалуйста, согласитесь со всеми условиями до размещения заказа.",module,Magento_Braintree
-"Paypal account","Аккаунт PayPal",module,Magento_Braintree
-"Coinbase account","Аккаунт Coinbase",module,Magento_Braintree
-"Europe bank account","Аккаунт Europe bank",module,Magento_Braintree
-"Credit card","Кредитная карта",module,Magento_Braintree
-"Apple pay card","платежная карточка Apple",module,Magento_Braintree
-"Android pay card","платежная карточка Android",module,Magento_Braintree
-"Authorization expired","Истек срок действия авторизации",module,Magento_Braintree
-Authorizing,Авторизация,module,Magento_Braintree
-Authorized,Авторизованный,module,Magento_Braintree
-"Gateway rejected","Шлюз отклонен",module,Magento_Braintree
-Failed,Ошибка,module,Magento_Braintree
-"Processor declined","отказ процессором",module,Magento_Braintree
-Settled,Стабильный,module,Magento_Braintree
-Settling,Стабилизация,module,Magento_Braintree
-"Submitted for settlement","Отправлено для стабилизации",module,Magento_Braintree
-Voided,Аннулирован,module,Magento_Braintree
-Unrecognized,Нераспознан,module,Magento_Braintree
-"Settlement declined","Стабилизация снизилась",module,Magento_Braintree
-"Settlement pending","Стабилизация в ожидании",module,Magento_Braintree
-"Settlement confirmed","Стабилизация подтверждена",module,Magento_Braintree
-Sale,Продажа,module,Magento_Braintree
-Credit,Кредит,module,Magento_Braintree
 "Credit Card Type","Тип кредитной карты",module,Magento_Braintree
 "Credit Card Number","Номер кредитной карты",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Пожалуйста введите действительный номер кредитной карты",module,Magento_Braintree
@@ -1516,10 +1494,9 @@ Number,Номер,module,Magento_Shipping
 Action,Действие,module,Magento_Shipping
 "Are you sure?","Вы уверены?",module,Magento_Shipping
 SKU,Артикул,module,Magento_Shipping
-Status:,Статус:,module,Magento_Shipping
 N/A,Н/Д,module,Magento_Shipping
-Date,Дата,module,Magento_Shipping
 "Close Window","Закрыть окно",module,Magento_Shipping
+Date,Дата,module,Magento_Shipping
 "Save & Generate","Сохранить & генерировать",module,Magento_Sitemap
 Sitemap,"Карта сайта",module,Magento_Sitemap
 Filename,"Имя файла",module,Magento_Sitemap
@@ -1952,7 +1929,6 @@ Download,Скачать,module,Magento_Backup
 Action,Действие,module,Magento_Backup
 "Enable this Solution","Включить это решение",module,Magento_Braintree
 "Enable PayPal through Braintree","Включить PayPal через Braintree",module,Magento_Braintree
-"Vault enabled","Vault включен",module,Magento_Braintree
 "Basic Braintree Settings","Основные настройки Braintree",module,Magento_Braintree
 Title,Название,module,Magento_Braintree
 Environment,"Окружающая среда",module,Magento_Braintree
@@ -1985,12 +1961,12 @@ Debug,Отладка,module,Magento_Braintree
 Select...,Выбрать...,module,Magento_Braintree
 Status,Статус,module,Magento_Braintree
 "Transaction Type","Тип транзакции",module,Magento_Braintree
+"Payment Type","Тип платежа",module,Magento_Braintree
 "PayPal Payment ID","Идентификатор оплаты PayPal",module,Magento_Braintree
+"Created At","Создано в",module,Magento_Braintree
 "Transaction ID","ID транзакции",module,Magento_Braintree
 "Order ID","ID заказа",module,Magento_Braintree
-"Payment Type","Тип платежа",module,Magento_Braintree
 Type,Тип,module,Magento_Braintree
-"Created At","Создано в",module,Magento_Braintree
 Amount,Количество,module,Magento_Braintree
 "Settlement Code","Расчетный код",module,Magento_Braintree
 "Settlement Response Text","Текстовый ответ расчета",module,Magento_Braintree
