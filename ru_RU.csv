@@ -332,7 +332,6 @@ Minute,Минута,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript может быть отключен в вашем браузере.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Чтобы использовать этот веб-сайт необходимо сначала включить JavaScript в вашем браузере.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Это демонстрационный магазин. Любые заказы, оформленные на этом сайте, не будут обработаны или выполнены.",module,Magento_Backend
-"Report Bugs","Сообщить об ошибке",module,Magento_Backend
 "Store View:","Представление магазина:",module,Magento_Backend
 "Stores Configuration","Конфигурация Магазина",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Пожалуйста, подтвердите переключение области. Все данные, которые не были сохранены, будут потеряны.",module,Magento_Backend
@@ -448,6 +447,8 @@ Authorize,Авторизировать,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Пожалуйста введите действительный номер проверки карты",module,Magento_Braintree
 ending,Окончание,module,Magento_Braintree
 expires,"срок действия",module,Magento_Braintree
+Actions,Действия,module,Magento_Braintree
+Delete,Удалить,module,Magento_Braintree
 "Percent Discount","Процент скидки",module,Magento_Bundle
 "-- Select --","-- Выберите --",module,Magento_Bundle
 Dynamic,Динамический,module,Magento_Bundle
@@ -689,7 +690,6 @@ None,Нет,module,Magento_Catalog
 "You deleted the category.","Вы удалили категорию.",module,Magento_Catalog
 "Something went wrong while trying to delete the category.","Что-то пошло не так при попытке удалить категорию.",module,Magento_Catalog
 Categories,Категории,module,Magento_Catalog
-"You moved the category","Вы переместили категорию",module,Magento_Catalog
 "Attribute ""%1"" is required.","Атрибут ""%1"" является обязательным.",module,Magento_Catalog
 "You saved the category.","Вы сохранили категорию.",module,Magento_Catalog
 Catalog,Каталог,module,Magento_Catalog
@@ -721,7 +721,6 @@ Disabled,Отключено,module,Magento_Catalog
 "Such product doesn't exist","Этот продукт не существует",module,Magento_Catalog
 "Such image doesn't exist","Такое изображение не существует",module,Magento_Catalog
 "We couldn't move this file: %1.","Мы не смогли переместить этот файл: %1.",module,Magento_Catalog
-"We can't find the image file.","Мы не можем найти файл изображения.",module,Magento_Catalog
 "Please specify product's required option(s).","Пожалуйста, укажите нужный вариант (ы) продукта.",module,Magento_Catalog
 "File '%1' is not an image.","Файл '%1' не является изображением.",module,Magento_Catalog
 "The text is too long.","Текст слишком длинный.",module,Magento_Catalog
@@ -1343,7 +1342,6 @@ Discount,Скидка,module,Magento_SalesRule
 "Can't acquire coupon.","Не удается получить купон.",module,Magento_SalesRule
 Subtotal,"Промежуточный итог",module,Magento_SalesRule
 "Total Weight","Общий вес",module,Magento_SalesRule
-"Payment Method","Метод оплаты",module,Magento_SalesRule
 "Shipping Method","Способ доставки",module,Magento_SalesRule
 FOUND,НАЙДЕНО,module,Magento_SalesRule
 "NOT FOUND","НЕ НАЙДЕНО",module,Magento_SalesRule
@@ -1679,12 +1677,10 @@ Total:,Всего:,module,Magento_Checkout
 Password,Пароль,module,Magento_Checkout
 "Forgot Your Password?","Забыли Ваш пароль?",module,Magento_Checkout
 Cancel,Отмена,module,Magento_Checkout
-Close,Закрыть,module,Magento_Checkout
 items,позиции,module,Magento_Checkout
 Remove,Удалить,module,Magento_Checkout
 "Shipping Address","Адрес доставки",module,Magento_Checkout
 Next,Дальше,module,Magento_Checkout
-"Items in Cart","Товары в корзине",module,Magento_Checkout
 "Welcome to %store_name.","Добро пожаловать на %store_name.",module,Magento_Customer
 Email:,"Электронная почта:",module,Magento_Customer
 Password:,Пароль:,module,Magento_Customer
@@ -2119,14 +2115,11 @@ Action,Действие,module,Magento_Sitemap
 Layouts,Макеты,module,Magento_Store
 State/Region,Область/Регион,module,Magento_Tax
 "1 column","1 колонка",module,Magento_Theme
-"Search Engine Robots","Роботы поисковых систем",module,Magento_Theme
 "Default Description","Описание по умолчанию",module,Magento_Theme
 "Default welcome msg!","Приветствие по умолчанию!",module,Magento_Theme
 "Favicon Icon","Значок Favicon",module,Magento_Theme
 "Default Keywords","Ключевые слова по умолчанию",module,Magento_Theme
 "Display Demo Store Notice","Отображать уведомление о том, что это демонстрационный сайт",module,Magento_Theme
-"Logo Image Width","Ширина изображения логотипа",module,Magento_Theme
-"Logo Image Height","Высота изображения логотипа",module,Magento_Theme
 "2 columns with left bar","2 колонки с левой полосой",module,Magento_Theme
 "2 columns with right bar","2 колонки с правой полосой",module,Magento_Theme
 "3 columns","3 колонки",module,Magento_Theme
