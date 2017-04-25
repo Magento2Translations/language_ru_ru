@@ -47,6 +47,7 @@ Close,Закрыть,module,Magento_AdminNotification
 "Order saving error: %1","Порядок сохранения ошибки: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Пожалуйста, выберите способ оплаты.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Мы не можем обработать вам заказ сейчас. Пожалуйста попробуйте позже.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","На сервере произошел сбой. Пожалуйста, попробуйте повторить размещение заказа.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Кредитная карта: xxxx-%1",module,Magento_Authorizenet
 "amount %1","сумма %1",module,Magento_Authorizenet
 failed.,ошибка.,module,Magento_Authorizenet
@@ -447,6 +448,8 @@ Authorize,Авторизировать,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Пожалуйста введите действительный номер проверки карты",module,Magento_Braintree
 ending,Окончание,module,Magento_Braintree
 expires,"срок действия",module,Magento_Braintree
+"PayPal Account","Аккаунт PayPal",module,Magento_Braintree
+"PayPal Logo","Логотип PayPal",module,Magento_Braintree
 Actions,Действия,module,Magento_Braintree
 Delete,Удалить,module,Magento_Braintree
 "Percent Discount","Процент скидки",module,Magento_Bundle
