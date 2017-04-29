@@ -1731,6 +1731,7 @@ items,позиции,module,Magento_Checkout
 Remove,Удалить,module,Magento_Checkout
 "Shipping Address","Адрес доставки",module,Magento_Checkout
 Next,Дальше,module,Magento_Checkout
+"Items in Cart","Товары в корзине",module,Magento_Checkout
 "Welcome to %store_name.","Добро пожаловать на %store_name.",module,Magento_Customer
 Email:,"Электронная почта:",module,Magento_Customer
 Password:,Пароль:,module,Magento_Customer
