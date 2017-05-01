@@ -1294,6 +1294,7 @@ Product,Товар,module,Magento_Reports
 SKU,Артикул,module,Magento_Reports
 Total,Всего,module,Magento_Reports
 Price,Цена,module,Magento_Reports
+"Refresh Statistics","Обновить статистику",module,Magento_Reports
 Customer,Клиент,module,Magento_Reports
 Created,Создан,module,Magento_Reports
 Subtotal,"Промежуточный итог",module,Magento_Reports
@@ -1314,8 +1315,10 @@ Customers,Покупатели,module,Magento_Reports
 "Last Name",Фамилия,module,Magento_Reports
 "Items in Cart","Товары в корзине",module,Magento_Reports
 Name,Название,module,Magento_Reports
+Reports,Отчеты,module,Magento_Reports
 Sales,Продажи,module,Magento_Reports
 "Shopping Cart",Корзина,module,Magento_Reports
+Bestsellers,"Лидеры продаж",module,Magento_Reports
 Error,Ошибка,module,Magento_Reports
 "Select Date","Выберите дату",module,Magento_Reports
 "All Websites","Все веб-сайты",module,Magento_Reports
@@ -1522,8 +1525,10 @@ Subtotal:,"Промежуточный итог:",module,Magento_Sales
 "Please select",Выберите,module,Magento_Sales
 "Move to Wish List","Переместить в список желаний",module,Magento_Sales
 Refresh,Обновить,module,Magento_Sales
+"Purchased From: %1","Куплен в: %1",module,Magento_Sales
 Message:,Сообщение:,module,Magento_Sales
 Status,Статус,module,Magento_Sales
+"Purchased From","Куплен в",module,Magento_Sales
 "Customer Name","Имя клиента",module,Magento_Sales
 "Customer Group","Группы клиентов",module,Magento_Sales
 Items,Позиции,module,Magento_Sales
