@@ -76,6 +76,7 @@ void,"значение void",module,Magento_Authorizenet
 "Authorize Only","Авторизировать только",module,Magento_Authorizenet
 "Authorize and Capture","Авторизация и запись",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Не удалось получить сведения о транзакциях. Повторите попытку позже.",module,Magento_Authorizenet
+"Electronic payments save the trees.","Электронные платежи сохраняют деревья.",module,Magento_Authorizenet
 "Credit Card Type","Тип кредитной карты",module,Magento_Authorizenet
 "Please Select",Выберите,module,Magento_Authorizenet
 "Credit Card Number","Номер кредитной карты",module,Magento_Authorizenet
@@ -335,6 +336,7 @@ Minute,Минута,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript может быть отключен в вашем браузере.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Чтобы использовать этот веб-сайт необходимо сначала включить JavaScript в вашем браузере.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Это демонстрационный магазин. Любые заказы, оформленные на этом сайте, не будут обработаны или выполнены.",module,Magento_Backend
+"Report an Issue","Сообщить о проблеме",module,Magento_Backend
 "Store View:","Представление магазина:",module,Magento_Backend
 "Stores Configuration","Конфигурация Магазина",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Пожалуйста, подтвердите переключение области. Все данные, которые не были сохранены, будут потеряны.",module,Magento_Backend
@@ -634,19 +636,32 @@ Cancel,Отмена,module,Magento_Catalog
 "Save and Continue Edit","Сохранить и продолжить редактирование",module,Magento_Catalog
 "Delete Attribute","Удалить атрибут",module,Magento_Catalog
 "Default Value","Значение по умолчанию",module,Magento_Catalog
+"Unique Value","Уникальное значение",module,Magento_Catalog
 "Store View","Представление магазина",module,Magento_Catalog
 Website,Веб-сайт,module,Magento_Catalog
 Global,Глобальнo,module,Magento_Catalog
+Scope,"Область видимости",module,Magento_Catalog
 "Declare attribute value saving scope.","Объявить диапазон действия сохраняемого значения атрибута.",module,Magento_Catalog
+"Use in Search","Использовать в поиске по сайту",module,Magento_Catalog
+"Enable WYSIWYG","Включить визуальный редактор",module,Magento_Catalog
 Gallery,Галерея,module,Magento_Catalog
 "System Properties","Свойства системы",module,Magento_Catalog
 No,Нет,module,Magento_Catalog
 Yes,Да,module,Magento_Catalog
+Text,Текст,module,Magento_Catalog
+Decimal,"Десятичное число",module,Magento_Catalog
+Integer,"Целое число",module,Magento_Catalog
+"Globally Editable","Глобально редактируемые",module,Magento_Catalog
+Properties,Свойства,module,Magento_Catalog
 Visible,Видимый,module,Magento_Catalog
 "Web Site",Веб-сайт,module,Magento_Catalog
+Searchable,"Включить в поиск по сайту",module,Magento_Catalog
+Comparable,"Включить в сравнение",module,Magento_Catalog
 "Add New","Добавить новый",module,Magento_Catalog
 Back,Вернуться,module,Magento_Catalog
 Reset,Сбросить,module,Magento_Catalog
+"New Set Name","Новый набор атрибутов",module,Magento_Catalog
+"Edit Attribute Set '%1'","Редактировать набор атрибутов '%1'",module,Magento_Catalog
 "Add Attribute","Добавить атрибут",module,Magento_Catalog
 "Add New Group","Добавить новую группу",module,Magento_Catalog
 "Add Group","Добавить группу",module,Magento_Catalog
@@ -655,6 +670,8 @@ Reset,Сбросить,module,Magento_Catalog
 "Save & Close","Сохранить и закрыть",module,Magento_Catalog
 Attributes,Атрибуты,module,Magento_Catalog
 Change,Изменить,module,Magento_Catalog
+"Create Category","Создать категорию",module,Magento_Catalog
+"Category Name","Название категории",module,Magento_Catalog
 "Parent Category","Родительская категория",module,Magento_Catalog
 "First Name",Имя,module,Magento_Catalog
 "Last Name",Фамилия,module,Magento_Catalog
@@ -942,6 +959,7 @@ Status,Статус,module,Magento_Customer
 Cancel,Отмена,module,Magento_Customer
 Unknown,Неизвестно,module,Magento_Customer
 Order,Заказ,module,Magento_Customer
+"Order Total","Сумма заказа",module,Magento_Customer
 Qty,Кол-во,module,Magento_Customer
 No,Нет,module,Magento_Customer
 Yes,Да,module,Magento_Customer
@@ -986,6 +1004,7 @@ or,или,module,Magento_Customer
 "Delete Address","Удалить адрес",module,Magento_Customer
 "* Required Fields","* Обязательные поля",module,Magento_Customer
 Address,Адрес,module,Magento_Customer
+"VAT Number","Номер НДС",module,Magento_Customer
 City,Город,module,Magento_Customer
 State/Province,Область,module,Magento_Customer
 "Zip/Postal Code","Почтовый индекс",module,Magento_Customer
@@ -1196,6 +1215,7 @@ Back,Вернуться,module,Magento_Paypal
 "Are you sure you want to do this?","Вы уверены, что вы хотите это сделать?",module,Magento_Paypal
 Cancel,Отмена,module,Magento_Paypal
 Order,Заказ,module,Magento_Paypal
+"Order Total","Сумма заказа",module,Magento_Paypal
 Help,Помощь,module,Magento_Paypal
 Configure,Настроить,module,Magento_Paypal
 Close,Закрыть,module,Magento_Paypal
@@ -1470,6 +1490,7 @@ New,Новый,module,Magento_Sales
 Customer,Клиент,module,Magento_Sales
 Apply,Применить,module,Magento_Sales
 Remove,Удалить,module,Magento_Sales
+"Order Total","Сумма заказа",module,Magento_Sales
 Action,Действие,module,Magento_Sales
 Subtotal:,"Промежуточный итог:",module,Magento_Sales
 "Please select",Выберите,module,Magento_Sales
@@ -1547,6 +1568,7 @@ kg,кг,module,Magento_Shipping
 Number,Номер,module,Magento_Shipping
 Action,Действие,module,Magento_Shipping
 "Are you sure?","Вы уверены?",module,Magento_Shipping
+"Order Total","Сумма заказа",module,Magento_Shipping
 SKU,Артикул,module,Magento_Shipping
 N/A,Н/Д,module,Magento_Shipping
 "Close Window","Закрыть окно",module,Magento_Shipping
@@ -2068,6 +2090,7 @@ Main,Главная,module,Magento_Catalog
 Design,Дизайн,module,Magento_Catalog
 Enable,Включить,module,Magento_Catalog
 Disable,Отключить,module,Magento_Catalog
+"Order Total","Сумма заказа",module,Magento_Checkout
 "Shipping Address","Адрес доставки",module,Magento_Checkout
 Design,Дизайн,module,Magento_Cms
 From,от,module,Magento_Cms
@@ -2138,6 +2161,7 @@ Frequency,Периодичность,module,Magento_ProductAlert
 "Products in Cart","Товары в Корзине",module,Magento_Reports
 "Search Terms","Поисковые запросы",module,Magento_Reports
 Refunds,Возвраты,module,Magento_Reports
+"Order Total","Сумма заказа",module,Magento_Reports
 Dashboard,"Панель управления",module,Magento_Reports
 Average,"В среднем",module,Magento_Reports
 Guest,Гость,module,Magento_Reports
@@ -2178,6 +2202,7 @@ Enabled,Включено,module,Magento_Sitemap
 Action,Действие,module,Magento_Sitemap
 Layouts,Макеты,module,Magento_Store
 State/Region,Область/Регион,module,Magento_Tax
+"Order Total","Сумма заказа",module,Magento_Tax
 "1 column","1 колонка",module,Magento_Theme
 "Default welcome msg!","Приветствие по умолчанию!",module,Magento_Theme
 "Favicon Icon","Значок Favicon",module,Magento_Theme
