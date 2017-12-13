@@ -657,21 +657,34 @@ Year,Год,module,Magento_Catalog
 "Save Attribute","Сохранить атрибут",module,Magento_Catalog
 "Delete Attribute","Удалить атрибут",module,Magento_Catalog
 "Default Value","Значение по умолчанию",module,Magento_Catalog
+"Unique Value","Уникальное значение",module,Magento_Catalog
 "Not shared with other products","Не используется совместно с другими продуктами",module,Magento_Catalog
 "Store View","Представление магазина",module,Magento_Catalog
 Website,Веб-сайт,module,Magento_Catalog
 Global,Глобальнo,module,Magento_Catalog
+Scope,"Область видимости",module,Magento_Catalog
+"Use in Search","Использовать в поиске по сайту",module,Magento_Catalog
+"Enable WYSIWYG","Включить визуальный редактор",module,Magento_Catalog
 "Depends on design theme","Зависит от дизайна темы",module,Magento_Catalog
 Gallery,Галерея,module,Magento_Catalog
 "System Properties","Свойства системы",module,Magento_Catalog
 No,Нет,module,Magento_Catalog
 Yes,Да,module,Magento_Catalog
+Text,Текст,module,Magento_Catalog
+Decimal,"Десятичное число",module,Magento_Catalog
+Integer,"Целое число",module,Magento_Catalog
+"Globally Editable","Глобально редактируемые",module,Magento_Catalog
+Properties,Свойства,module,Magento_Catalog
 Visible,Видимый,module,Magento_Catalog
 "Web Site",Веб-сайт,module,Magento_Catalog
+Searchable,"Включить в поиск по сайту",module,Magento_Catalog
+Comparable,"Включить в сравнение",module,Magento_Catalog
 "Add New","Добавить новый",module,Magento_Catalog
 Back,Вернуться,module,Magento_Catalog
 Delete,Удалить,module,Magento_Catalog
 Save,Сохранить,module,Magento_Catalog
+"New Set Name","Новый набор атрибутов",module,Magento_Catalog
+"Edit Attribute Set '%1'","Редактировать набор атрибутов '%1'",module,Magento_Catalog
 "Add Attribute","Добавить атрибут",module,Magento_Catalog
 "Add New Group","Добавить новую группу",module,Magento_Catalog
 "Add Group","Добавить группу",module,Magento_Catalog
@@ -680,6 +693,7 @@ Save,Сохранить,module,Magento_Catalog
 "Save & Close","Сохранить и закрыть",module,Magento_Catalog
 Attributes,Атрибуты,module,Magento_Catalog
 Change,Изменить,module,Magento_Catalog
+"Category Name","Название категории",module,Magento_Catalog
 "Parent Category","Родительская категория",module,Magento_Catalog
 "First Name",Имя,module,Magento_Catalog
 "Last Name",Фамилия,module,Magento_Catalog
@@ -974,6 +988,7 @@ Status,Статус,module,Magento_Customer
 Cancel,Отмена,module,Magento_Customer
 Unknown,Неизвестно,module,Magento_Customer
 Order,Заказ,module,Magento_Customer
+"Order Total","Сумма заказа",module,Magento_Customer
 Qty,Кол-во,module,Magento_Customer
 No,Нет,module,Magento_Customer
 Yes,Да,module,Magento_Customer
@@ -1028,6 +1043,7 @@ Company,Компания,module,Magento_Customer
 "Phone Number","Номер телефона",module,Magento_Customer
 Fax,Факс,module,Magento_Customer
 Address,Адрес,module,Magento_Customer
+"VAT Number","Номер НДС",module,Magento_Customer
 City,Город,module,Magento_Customer
 State/Province,Область,module,Magento_Customer
 "Zip/Postal Code","Почтовый индекс",module,Magento_Customer
@@ -1233,6 +1249,7 @@ Back,Вернуться,module,Magento_Paypal
 "Are you sure you want to do this?","Вы уверены, что вы хотите это сделать?",module,Magento_Paypal
 Cancel,Отмена,module,Magento_Paypal
 Order,Заказ,module,Magento_Paypal
+"Order Total","Сумма заказа",module,Magento_Paypal
 Help,Помощь,module,Magento_Paypal
 Configure,Настроить,module,Magento_Paypal
 Close,Закрыть,module,Magento_Paypal
@@ -1520,6 +1537,7 @@ New,Новый,module,Magento_Sales
 Customer,Клиент,module,Magento_Sales
 Apply,Применить,module,Magento_Sales
 Remove,Удалить,module,Magento_Sales
+"Order Total","Сумма заказа",module,Magento_Sales
 Action,Действие,module,Magento_Sales
 Subtotal:,"Промежуточный итог:",module,Magento_Sales
 "Please select",Выберите,module,Magento_Sales
@@ -1591,6 +1609,7 @@ kg,кг,module,Magento_Shipping
 Number,Номер,module,Magento_Shipping
 Action,Действие,module,Magento_Shipping
 "Are you sure?","Вы уверены?",module,Magento_Shipping
+"Order Total","Сумма заказа",module,Magento_Shipping
 SKU,Артикул,module,Magento_Shipping
 Status:,Статус:,module,Magento_Shipping
 N/A,Н/Д,module,Magento_Shipping
@@ -1792,6 +1811,7 @@ Password:,Пароль:,theme,frontend/Magento/luma
 "Add Selected Products","Добавить выбранныетовары",module,Magento_Bundle
 Ok,Oк,module,Magento_Catalog
 Cancel,Отмена,module,Magento_Catalog
+"Create Category","Создать категорию",module,Magento_Catalog
 "Incl. Tax","Включая налог",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Вы уверены, что вы хотите это сделать?",module,Magento_Customer
 Allow,Разрешить,module,Magento_Integration
@@ -2040,6 +2060,7 @@ Enable,Включить,module,Magento_Catalog
 Disable,Отключить,module,Magento_Catalog
 "Require Customer To Be Logged In To Checkout","Клиент должен войти в систему, чтобы оформить заказ",module,Magento_Checkout
 Shipping,Доставка,module,Magento_Checkout
+"Order Total","Сумма заказа",module,Magento_Checkout
 "Shipping Address","Адрес доставки",module,Magento_Checkout
 Cancel,Отмена,module,Magento_Checkout
 Disable,Отключить,module,Magento_Cms
@@ -2141,6 +2162,7 @@ Enabled,Включено,module,Magento_Sitemap
 Action,Действие,module,Magento_Sitemap
 Layouts,Макеты,module,Magento_Store
 State/Region,Область/Регион,module,Magento_Tax
+"Order Total","Сумма заказа",module,Magento_Tax
 "1 column","1 колонка",module,Magento_Theme
 "Favicon Icon","Значок Favicon",module,Magento_Theme
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Допустимые типы файлов: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Не все браузеры поддерживают эти форматы!",module,Magento_Theme
