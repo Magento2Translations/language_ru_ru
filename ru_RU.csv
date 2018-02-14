@@ -342,7 +342,7 @@ Database,"База данных",module,Magento_Backup
 "Magento root directory","Корневой каталог Magento",module,Magento_Backup
 "Create Backup","Создать резервную копию",module,Magento_Backup
 Country,Страна,module,Magento_Braintree
-"Allowed Credit Card Types","Разрешенные типы кредитных карт",module,Magento_Braintree
+"Allowed Credit Card Types","Разрешенные Типы Кредитных Карт",module,Magento_Braintree
 "Add Rule","Добавить правило",module,Magento_Braintree
 "Stored Card","Сохраненные карты",module,Magento_Braintree
 "Credit Card Type","Тип кредитной карты",module,Magento_Braintree
@@ -447,23 +447,34 @@ Always,Всегда,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Внимание</strong>: Captcha чувствительна к регистру в полях ввода данных.",module,Magento_Captcha
 "Reload captcha","Обновить captcha",module,Magento_Captcha
 "Please type the letters below","Пожалуйста, введите буквы ниже",module,Magento_Captcha
+"Custom options have different types.","Пользовательские параметры имеют разные типы.",module,Magento_CatalogImportExport
+"Please correct the parameters.","Пожалуйста исправьте параметры.",module,Magento_CatalogImportExport
 "ALL GROUPS","ВСЕ ГРУППЫ",module,Magento_CatalogInventory
 "Customer Group","Группы клиентов",module,Magento_CatalogInventory
 "Minimum Qty","Минимальное кол-во",module,Magento_CatalogInventory
+"This product is out of stock.","Этот продукт недоступен.",module,Magento_CatalogInventory
+"Undefined product type","Неопознанный тип продукта",module,Magento_CatalogInventory
 "In Stock","В наличии",module,Magento_CatalogInventory
 "Out of Stock","Нет в наличии",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","Пожалуйста, исправьте количество для некоторых продуктов.",module,Magento_CatalogInventory
 "Only %1 left","Осталось всего %1",module,Magento_CatalogInventory
 "Product Name","Название товара",module,Magento_CatalogInventory
 Qty,Кол-во,module,Magento_CatalogInventory
+"Catalog Price Rule","Правило цены каталога",module,Magento_CatalogRule
 "Add New Rule","Добавить новое правило",module,Magento_CatalogRule
 "Apply Rules","Применить правила",module,Magento_CatalogRule
+"Save and Apply","Сохранить и применить",module,Magento_CatalogRule
 "Save and Continue Edit","Сохранить и продолжить редактирование",module,Magento_CatalogRule
 "New Rule","Новое правило",module,Magento_CatalogRule
+"Rule Information","Информация о правилах",module,Magento_CatalogRule
 Actions,Действия,module,Magento_CatalogRule
 Apply,Применить,module,Magento_CatalogRule
 No,Нет,module,Magento_CatalogRule
 Yes,Да,module,Magento_CatalogRule
+Conditions,Условия,module,Magento_CatalogRule
 Status,Статус,module,Magento_CatalogRule
+Active,Активно,module,Magento_CatalogRule
+Inactive,Неактивный,module,Magento_CatalogRule
 "Customer Groups","Группы покупателей",module,Magento_CatalogRule
 From,от,module,Magento_CatalogRule
 To,До,module,Magento_CatalogRule
@@ -472,8 +483,21 @@ Type,Тип,module,Magento_CatalogRule
 "Attribute Set","Набор атрибутов",module,Magento_CatalogRule
 SKU,Артикул,module,Magento_CatalogRule
 Product,Товар,module,Magento_CatalogRule
+Promotions,Продвижение,module,Magento_CatalogRule
+"This rule no longer exists.","Это правило больше не существует.",module,Magento_CatalogRule
+"New Catalog Price Rule","Правило цены нового каталога",module,Magento_CatalogRule
 "Edit Rule","Редактировать правило",module,Magento_CatalogRule
 Catalog,Каталог,module,Magento_CatalogRule
+Promo,Промо,module,Magento_CatalogRule
+"Percentage discount should be between 0 and 100.","Процентная скидка должна быть от 0 до 100.",module,Magento_CatalogRule
+"Discount value should be 0 or greater.","Значение скидки должно быть 0 или больше.",module,Magento_CatalogRule
+"Unknown action.","Неизвестное действие.",module,Magento_CatalogRule
+"Update the Product","Обновление товара",module,Magento_CatalogRule
+"Rule price","Правило цены",module,Magento_CatalogRule
+"By Fixed value","По фиксированному значению",module,Magento_CatalogRule
+"Update product's %1 %2: %3","Обновление продукта %1 %2: %3",module,Magento_CatalogRule
+"Conditions Combination","Сочетание условий",module,Magento_CatalogRule
+"Product Attribute","Атрибут товара",module,Magento_CatalogRule
 Home,Главная,module,Magento_CatalogSearch
 "Go to Home Page","Перейти на главную страницу",module,Magento_CatalogSearch
 All,Все,module,Magento_CatalogSearch
@@ -481,6 +505,9 @@ Yes,Да,module,Magento_CatalogSearch
 No,Нет,module,Magento_CatalogSearch
 Grid,Сетка,module,Magento_CatalogSearch
 List,Список,module,Magento_CatalogSearch
+"Search results for: '%1'","Результаты поиска для:' %1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Минимальная длина поискового запроса %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Укажите, по крайней мере, один поисковый запрос.",module,Magento_CatalogSearch
 "%1 and greater","%1 и более",module,Magento_CatalogSearch
 "up to %1","до %1",module,Magento_CatalogSearch
 Search,Поиск,module,Magento_CatalogSearch
@@ -493,10 +520,13 @@ Reset,Сбросить,module,Magento_Catalog
 "New Subcategory","Новая подкатегория",module,Magento_Catalog
 "New Root Category","Новая корневая категория",module,Magento_Catalog
 "Set Root Category for Store","Выберите домашнею категорию для магазина",module,Magento_Catalog
+"Use Config Settings","Использовать Настройки Конфигурации",module,Magento_Catalog
+"Use All Available Attributes","Используйте Все Доступные Функции",module,Magento_Catalog
 "Custom Design","Индивидуальный дизайн",module,Magento_Catalog
 Name,Название,module,Magento_Catalog
 SKU,Артикул,module,Magento_Catalog
 Price,Цена,module,Magento_Catalog
+Position,Позиция,module,Magento_Catalog
 "Category Data","Категория данных",module,Magento_Catalog
 "Category Products","Товары категории",module,Magento_Catalog
 "Add Subcategory","Добавить подкатегорию",module,Magento_Catalog
@@ -504,105 +534,186 @@ Price,Цена,module,Magento_Catalog
 Day,День,module,Magento_Catalog
 Month,Месяц,module,Magento_Catalog
 Year,Год,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>от</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>для</span></label>",module,Magento_Catalog
 [GLOBAL],[ГЛОБАЛЬНО],module,Magento_Catalog
 [WEBSITE],[САЙТ],module,Magento_Catalog
 "[STORE VIEW]","[Представление магазина]",module,Magento_Catalog
 "WYSIWYG Editor","WYSIWYG редактор",module,Magento_Catalog
 "Add Product","Добавить товар",module,Magento_Catalog
+label,метка,module,Magento_Catalog
 "Product Attributes","Атрибуты товара",module,Magento_Catalog
 "Add New Attribute","Добавить новый атрибут",module,Magento_Catalog
+"Save in New Attribute Set","Сохранить в новом наборе атрибутов",module,Magento_Catalog
+"Enter Name for New Attribute Set","Введите имя для нового набора атрибутов",module,Magento_Catalog
 "Save and Continue Edit","Сохранить и продолжить редактирование",module,Magento_Catalog
 "Save Attribute","Сохранить атрибут",module,Magento_Catalog
 "Delete Attribute","Удалить атрибут",module,Magento_Catalog
+"Edit Product Attribute ""%1""","Редактировать атрибут продукта ""%1""",module,Magento_Catalog
+"New Product Attribute","Новый атрибут продукта",module,Magento_Catalog
+"Advanced Attribute Properties","Расширенные свойства атрибута",module,Magento_Catalog
+"Attribute Code","Код атрибута",module,Magento_Catalog
 "Default Value","Значение по умолчанию",module,Magento_Catalog
 "Unique Value","Уникальное значение",module,Magento_Catalog
+"Unique Value (not shared with other products)","Уникальное значение (не совместно с другими товарами)",module,Magento_Catalog
 "Not shared with other products","Не используется совместно с другими продуктами",module,Magento_Catalog
+"Input Validation for Store Owner","Проверка ввода для владельца магазина",module,Magento_Catalog
 "Store View","Представление магазина",module,Magento_Catalog
 Website,Веб-сайт,module,Magento_Catalog
 Global,Глобальнo,module,Magento_Catalog
 Scope,"Область видимости",module,Magento_Catalog
+"Use for Promo Rule Conditions","Использование условий правила Promo",module,Magento_Catalog
 "Enable WYSIWYG","Включить визуальный редактор",module,Magento_Catalog
+"Used in Product Listing","Использовалось в Товарном Списке",module,Magento_Catalog
 "Depends on design theme","Зависит от дизайна темы",module,Magento_Catalog
+"Used for Sorting in Product Listing","Используется для Сортировки Товарного Списка",module,Magento_Catalog
+"Media Image","Медиа Изображение",module,Magento_Catalog
 Gallery,Галерея,module,Magento_Catalog
 "System Properties","Свойства системы",module,Magento_Catalog
 No,Нет,module,Magento_Catalog
 Yes,Да,module,Magento_Catalog
+"Data Type for Saving in Database","Тип данных для сохранения в базе данных",module,Magento_Catalog
 Text,Текст,module,Magento_Catalog
+Static,Статический,module,Magento_Catalog
 Decimal,"Десятичное число",module,Magento_Catalog
 Integer,"Целое число",module,Magento_Catalog
 "Globally Editable","Глобально редактируемые",module,Magento_Catalog
+"Attribute Information","Информация об атрибуте",module,Magento_Catalog
 Properties,Свойства,module,Magento_Catalog
+"Manage Labels","Управление ярлыками",module,Magento_Catalog
 Visible,Видимый,module,Magento_Catalog
 "Web Site",Веб-сайт,module,Magento_Catalog
 Searchable,"Включить в поиск по сайту",module,Magento_Catalog
 Comparable,"Включить в сравнение",module,Magento_Catalog
+"Delete Selected Group","Удалить выбранную группу",module,Magento_Catalog
 "Add New","Добавить новый",module,Magento_Catalog
 Back,Вернуться,module,Magento_Catalog
 Delete,Удалить,module,Magento_Catalog
 Save,Сохранить,module,Magento_Catalog
 "New Set Name","Новый набор атрибутов",module,Magento_Catalog
 "Edit Attribute Set '%1'","Редактировать набор атрибутов '%1'",module,Magento_Catalog
+Empty,Пустой,module,Magento_Catalog
 "Add Attribute","Добавить атрибут",module,Magento_Catalog
 "Add New Group","Добавить новую группу",module,Magento_Catalog
 "Add Group","Добавить группу",module,Magento_Catalog
+"For internal use","Для внутреннего использования",module,Magento_Catalog
+"Based On","Основано на",module,Magento_Catalog
+"Add New Attribute Set","Добавить новый набор атрибутов",module,Magento_Catalog
+"Attribute Sets","Набор атрибутов",module,Magento_Catalog
 "Close Window","Закрыть окно",module,Magento_Catalog
 "New Product","Новый товар",module,Magento_Catalog
+"Save & Edit","Сохранить & Редактировать",module,Magento_Catalog
+"Save & New","Сохранить & Новый",module,Magento_Catalog
+"Save & Duplicate","Сохранить & Дублировать",module,Magento_Catalog
 "Save & Close","Сохранить и закрыть",module,Magento_Catalog
 Attributes,Атрибуты,module,Magento_Catalog
 Change,Изменить,module,Magento_Catalog
+"Advanced Inventory","Расширенный инвентарь",module,Magento_Catalog
+Websites,Веб-сайты,module,Magento_Catalog
+"Products Information","Информация о продуктах",module,Magento_Catalog
 "Category Name","Название категории",module,Magento_Catalog
 "Parent Category","Родительская категория",module,Magento_Catalog
+"There are no customers for this alert.","Нет клиентов для этого оповещения.",module,Magento_Catalog
 "First Name",Имя,module,Magento_Catalog
 "Last Name",Фамилия,module,Magento_Catalog
 Email,"Электронная почта",module,Magento_Catalog
+"Subscribe Date","Дата подписания",module,Magento_Catalog
+"Last Notified","Последние уведомление",module,Magento_Catalog
+"Send Count","Отправить счет",module,Magento_Catalog
 "New Attribute","Новый атрибут",module,Magento_Catalog
 Type,Тип,module,Magento_Catalog
 "Attribute Set","Набор атрибутов",module,Magento_Catalog
 Status,Статус,module,Magento_Catalog
 Visibility,Видимость,module,Magento_Catalog
+"Add New Option","Добавить новую опцию",module,Magento_Catalog
 "Import Options","Параметры импорта",module,Magento_Catalog
 "Use Default","Использовать значение по умолчанию",module,Magento_Catalog
 Import,Импорт,module,Magento_Catalog
 "Add New Row","Добавить новую строку",module,Magento_Catalog
 "Delete Row","Удалить строку",module,Magento_Catalog
+"Tier Pricing","Уровень цен",module,Magento_Catalog
+"Default Price","Цена по умолчанию",module,Magento_Catalog
 "All Websites","Все веб-сайты",module,Magento_Catalog
 "ALL GROUPS","ВСЕ ГРУППЫ",module,Magento_Catalog
+"Add Price","Добавить цену",module,Magento_Catalog
+"Default Values","Значения по умолчанию",module,Magento_Catalog
 "Related Products","Сопутствующие товары",module,Magento_Catalog
 Up-sells,"Похожие товары",module,Magento_Catalog
 Cross-sells,"Перекрёстные продажи",module,Magento_Catalog
+"Size for %1","Размер для %1",module,Magento_Catalog
+"Watermark File for %1","Подложка файла для %1",module,Magento_Catalog
+"Name in %1","Имя в %1",module,Magento_Catalog
 Quantity,Количество,module,Magento_Catalog
 Edit,Редактировать,module,Magento_Catalog
 "Are you sure?","Вы уверены?",module,Magento_Catalog
+"Update Attributes","Обновить атрибуты",module,Magento_Catalog
 "Click here or drag and drop to add images.","Нажмите здесь, или перетащите изображения для добавления.",module,Magento_Catalog
 "Delete image","Удалить изображение",module,Magento_Catalog
+Hidden,Скрытое,module,Magento_Catalog
+"start typing to search category","начните ввод для поиска категории",module,Magento_Catalog
 "New Category","Новая категория",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Изображения (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Добавить новые изображения",module,Magento_Catalog
+"Inc. Tax","Включая налог",module,Magento_Catalog
 Product,Товар,module,Magento_Catalog
 Home,Главная,module,Magento_Catalog
 "Go to Home Page","Перейти на главную страницу",module,Magento_Catalog
+"Products Comparison List","Список сравнения продуктов",module,Magento_Catalog
 N/A,Н/Д,module,Magento_Catalog
+AM,Утра,module,Magento_Catalog
+PM,Вечер,module,Magento_Catalog
 "-- Please Select --","-- Выберите --",module,Magento_Catalog
 None,Нет,module,Magento_Catalog
 "New Products","Новые товары",module,Magento_Catalog
+"Click for price","Нажмите чтобы узнать цену",module,Magento_Catalog
 "You deleted the category.","Вы удалили категорию.",module,Magento_Catalog
 "Something went wrong while trying to delete the category.","Что-то пошло не так при попытке удалить категорию.",module,Magento_Catalog
 Categories,Категории,module,Magento_Catalog
 "Manage Catalog Categories","Управление категориями",module,Magento_Catalog
 "Manage Categories","Управление категориями",module,Magento_Catalog
+"There was a category move error.","Там была ошибка перемещения категории.",module,Magento_Catalog
 "Attribute ""%1"" is required.","Атрибут ""%1"" является обязательным.",module,Magento_Catalog
 "You saved the category.","Вы сохранили категорию.",module,Magento_Catalog
+"Please select products for attributes update.","Пожалуйста, выберите продукты для обновления атрибутов.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","Пожалуйста убедитесь, в определении значения SKU для всех обработанных продуктов.",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.","Что-то пошло не так при обновлении атрибутов товара(ов).",module,Magento_Catalog
 Catalog,Каталог,module,Magento_Catalog
 "Manage Product Attributes","Управление атрибутами товара",module,Magento_Catalog
+"This attribute no longer exists.","Этот атрибут больше не существует.",module,Magento_Catalog
+"This attribute cannot be edited.","Этот атрибут нельзя редактировать.",module,Magento_Catalog
 "Edit Product Attribute","Редактировать атрибут товара",module,Magento_Catalog
+"You saved the product attribute.","Вы сохранили атрибут продукта.",module,Magento_Catalog
+"An attribute with this code already exists.","Атрибут с этим кодом уже существует.",module,Magento_Catalog
+"You duplicated the product.","Вы продублировали продукт.",module,Magento_Catalog
 "This product no longer exists.","Этот товар больше не существует.",module,Magento_Catalog
 Products,Товары,module,Magento_Catalog
+"A group with the same name already exists.","Группа с таким именем уже существует.",module,Magento_Catalog
+"Something went wrong while saving this group.","При сохранении этой группы что-то пошло не так.",module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","В общей сложности %1 записи(ей) были удалены.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","Обновлено в общей сложности %1 записи(ей).",module,Magento_Catalog
+"Something went wrong while updating the product(s) status.","Что-то пошло не так во время обновления статуса товар(ов).",module,Magento_Catalog
 "Unable to save product","Не удается сохранить товар",module,Magento_Catalog
 "You saved the product.","Вы сохранили товар.",module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","Артикул для товара %1 был изменен на %2.",module,Magento_Catalog
+"New Attribute Set","Новый набор атрибутов",module,Magento_Catalog
+"The attribute set has been removed.","Набор атрибутов удален.",module,Magento_Catalog
+"New Set","Новый набор",module,Magento_Catalog
+"Manage Product Sets","Управление наборами продуктов",module,Magento_Catalog
+"Manage Attribute Sets","Управление наборами атрибутов",module,Magento_Catalog
+"This attribute set no longer exists.","Этот атрибут больше не существует.",module,Magento_Catalog
+"You saved the attribute set.","Вы сохранили набор атрибутов.",module,Magento_Catalog
+"You added product %1 to the comparison list.","Вы добавили товар %1 в список сравнения.",module,Magento_Catalog
+"You cleared the comparison list.","Вы очистили список сравнения.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","Что-то пошло неправильно, очистив список сравнения.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","Вы удалили продукт %1 из списка сравнения.",module,Magento_Catalog
+"1 item","1 товар",module,Magento_Catalog
+"%1 items",%1товары,module,Magento_Catalog
+"Invalid attribute %1","Недействительный атрибут %1",module,Magento_Catalog
 Grid,Сетка,module,Magento_Catalog
 List,Список,module,Magento_Catalog
 All,Все,module,Magento_Catalog
+"Product is not loaded","Товар не загружен",module,Magento_Catalog
+"Bad controller interface for showing product","Плохой интерфейс контроллера для демонстрации продукта",module,Magento_Catalog
 "Products only","Только товары",module,Magento_Catalog
 "Static block only","Только статический блок",module,Magento_Catalog
 "Static block and products","Статический блок и товары",module,Magento_Catalog
@@ -615,10 +726,35 @@ All,Все,module,Magento_Catalog
 Percent,Процент,module,Magento_Catalog
 "-- Please select --","-- Выберите --",module,Magento_Catalog
 Category,Категория,module,Magento_Catalog
+"The image does not exist.","Изображение не существует.",module,Magento_Catalog
+"Please correct the image file type.","Пожалуйста, исправьте тип файла изображения.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Пожалуйста, введите число 0 или больше в это поле.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","Значение атрибута ""%1"" должно быть установлено",module,Magento_Catalog
+"SKU length should be %1 characters maximum.","Длина единицы хранения должна составлять не более %1 символов.",module,Magento_Catalog
+"Please enter a valid number in this field.","Пожалуйста введите правильный номер в это поле.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","Мы нашли дубликат веб-сайт, уровня цен, группу клиентов и количество.",module,Magento_Catalog
+"Use config","Использование конфигурации",module,Magento_Catalog
 Enabled,Включено,module,Magento_Catalog
 Disabled,Отключено,module,Magento_Catalog
+"The option type to get group instance is incorrect.","Неверный тип параметра для получения экземпляра группы.",module,Magento_Catalog
+"Select type options required values rows.","Выберите тип параметров требуемые значениями строк.",module,Magento_Catalog
+"Please specify date required option(s).","Пожалуйста, укажите нужный вариант(ы) параметра.",module,Magento_Catalog
+"Please specify time required option(s).","Пожалуйста, укажите время варианта(ов).",module,Magento_Catalog
+"The option instance type in options group is incorrect.","Тип экземпляра опции в группе параметров неверен.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","Тип экземпляра продукта в группе параметров неверен.",module,Magento_Catalog
+"The configuration item option instance in options group is incorrect.","Неверный экземпляр опции элемента конфигурации в группе параметров.",module,Magento_Catalog
+"The configuration item instance in options group is incorrect.","Экземпляр элемента конфигурации в группе параметров неверен.",module,Magento_Catalog
+"The BuyRequest instance in options group is incorrect.","Экземпляр BuyRequest в группе параметров неверен.",module,Magento_Catalog
+"The file options format is not valid.","Формат файлов недействителен.",module,Magento_Catalog
+"The file '%1' for '%2' has an invalid extension.","Файл ""%1"" для ""%2"" имеет недопустимое расширение.",module,Magento_Catalog
+"The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","Загруженный файл ""%1"" больше, чем %2 мегабайт, разрешен нашим сервером.",module,Magento_Catalog
+"The file you uploaded is larger than %1 Megabytes allowed by server","Загруженный файл превышает %1 мегабайт, разрешенный сервером",module,Magento_Catalog
+"The file is empty. Please choose another one","Файл пустой. Пожалуйста, выберите другой",module,Magento_Catalog
+"Some of the selected item options are not currently available.","Некоторые из выбранных опций в настоящее время недоступны.",module,Magento_Catalog
 "The text is too long.","Текст слишком длинный.",module,Magento_Catalog
 "The file upload failed.","Не удалось загрузить файл.",module,Magento_Catalog
+"The product has required options.","Товар имеет необходимые параметры.",module,Magento_Catalog
+"Something went wrong while processing the request.","Во время обработки запроса что-то пошло не так.",module,Magento_Catalog
 "Not Visible Individually","Не видим по отдельности",module,Magento_Catalog
 Search,Поиск,module,Magento_Catalog
 "Catalog, Search","Каталог, Поиск",module,Magento_Catalog
@@ -627,6 +763,8 @@ Search,Поиск,module,Magento_Catalog
 "Expand All","Развернуть всё",module,Magento_Catalog
 "Use Default Value","Использовать значение по умолчанию",module,Magento_Catalog
 "Is Default","По умолчанию",module,Magento_Catalog
+"Add Option","Добавить опцию",module,Magento_Catalog
+"Sort Option","Вариант сортировки",module,Magento_Catalog
 Groups,Группы,module,Magento_Catalog
 "Please enter a new group name.","Пожалуйста, введите имя новой группы.",module,Magento_Catalog
 "Maximum image width","Максимальная ширина изображения",module,Magento_Catalog
@@ -636,26 +774,47 @@ Groups,Группы,module,Magento_Catalog
 Qty,Кол-во,module,Magento_Catalog
 "In Stock","В наличии",module,Magento_Catalog
 "Out of Stock","Нет в наличии",module,Magento_Catalog
+"Option Title","Название опции",module,Magento_Catalog
 "Input Type","Тип ввода",module,Magento_Catalog
+Required,Необходимо,module,Magento_Catalog
+"Price Type","Тип цены",module,Magento_Catalog
+"Maximum Image Size","Максимальный размер изображения",module,Magento_Catalog
+"Please leave blank if it is not an image.","Пожалуйста, оставьте пустым, если это не изображение.",module,Magento_Catalog
+Title,Заголовок,module,Magento_Catalog
 "Max Characters","Макс. количество символов",module,Magento_Catalog
 "Customer Group","Группы клиентов",module,Magento_Catalog
 Action,Действие,module,Magento_Catalog
+Role,Роль,module,Magento_Catalog
+"Hide from Product Page","Скрыть от страницы продукта",module,Magento_Catalog
 "Close panel","Закрыть панель",module,Magento_Catalog
+"Product Alerts","Оповещения о продукте",module,Magento_Catalog
+"Basic Settings","Основные настройки",module,Magento_Catalog
+"Advanced Settings","Расширенные настройки",module,Magento_Catalog
 "Mass Actions","Массовые действия",module,Magento_Catalog
 "Select All","Выбрать всё",module,Magento_Catalog
 "Unselect All","Снять все выделения",module,Magento_Catalog
 "Select Visible","Выделить видимые",module,Magento_Catalog
 "Unselect Visible","Снять выделение с видимых",module,Magento_Catalog
+"Shopping Options","Варианты покупок",module,Magento_Catalog
+"Compare Products","Сравнение продуктов",module,Magento_Catalog
 "Print This Page","Распечатать эту страницу",module,Magento_Catalog
 "Remove Product","Удалить товар",module,Magento_Catalog
 "Add to Cart","Добавить в корзину",module,Magento_Catalog
 "In stock","В наличии",module,Magento_Catalog
 "Out of stock","Нет в наличии",module,Magento_Catalog
+"You have no items to compare.","У вас нет товаров для сравнения.",module,Magento_Catalog
 Compare,Сравнить,module,Magento_Catalog
+"Clear All","Очистить все",module,Magento_Catalog
 Next,Дальше,module,Magento_Catalog
 "Add to Compare","Добавить в сравнение",module,Magento_Catalog
+"More Choices:","Больше вариантов:",module,Magento_Catalog
+"Check items to add to the cart or","Проверьте продукты для добавления в корзину или",module,Magento_Catalog
 "select all","выбрать все",module,Magento_Catalog
+Show,Показать,module,Magento_Catalog
 "per page","на странице",module,Magento_Catalog
+"Sort By","Сортировать по",module,Magento_Catalog
+"Set Ascending Direction","Задать направление по возрастанию",module,Magento_Catalog
+"View as","Посмотреть, как",module,Magento_Catalog
 Loading...,Загрузка...,module,Magento_Catalog
 "* Required Fields","* Обязательные поля",module,Magento_Catalog
 Availability,Наличие,module,Magento_Catalog
@@ -671,14 +830,36 @@ Disabled,Отключено,module,Magento_CheckoutAgreements
 "Store View","Представление магазина",module,Magento_CheckoutAgreements
 Sales,Продажи,module,Magento_CheckoutAgreements
 "Shopping Cart",Корзина,module,Magento_Checkout
+"Invalid method: %1","Недействительный метод: %1",module,Magento_Checkout
 City,Город,module,Magento_Checkout
 Country,Страна,module,Magento_Checkout
 State/Province,Область,module,Magento_Checkout
 "Zip/Postal Code","Почтовый индекс",module,Magento_Checkout
+"My Cart (1 item)","Моя корзина (1 шт.)",module,Magento_Checkout
+"My Cart (%1 items)","Моя корзина (%1 шт.)",module,Magento_Checkout
+"My Cart","Моя корзина",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 добавлены в вашу корзину.",module,Magento_Checkout
+"We cannot configure the product.","Мы не можем конфигурировать товар.",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","Код купона ""%1"" недействителен.",module,Magento_Checkout
+"We cannot apply the coupon code.","Мы не можем использовать код купона.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 было обновлено в вашей корзине покупок.",module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","Пожалуйста, согласитесь со всеми условиями и положениями перед размещением заказа.",module,Magento_Checkout
+"The product does not exist.","Продукт не существует.",module,Magento_Checkout
+"We don't have some of the products you want.","У нас нет некоторых товаров, которые вы хотите.",module,Magento_Checkout
+"We don't have as many of some products as you want.","У нас нет так много продуктов, как вы хотите.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","Количество была пересчитана от %1 до %2",module,Magento_Checkout
+"This quote item does not exist.","Данная инструкция не существует.",module,Magento_Checkout
+"Display number of items in cart","Показать количество товаров в корзине",module,Magento_Checkout
+"Display item quantities","Показ количество товаров",module,Magento_Checkout
+"Invalid data","Неверная дата",module,Magento_Checkout
+"The customer address is not valid.","Адрес клиента не является допустимым.",module,Magento_Checkout
+"Invalid shipping method","Недействительный метод доставки",module,Magento_Checkout
+"Cancel Coupon","Отменить купон",module,Magento_Checkout
+"Shopping Cart Items","Корзина покупок товаров",module,Magento_Checkout
 Price,Цена,module,Magento_Checkout
 Qty,Кол-во,module,Magento_Checkout
 Subtotal,"Промежуточный итог",module,Magento_Checkout
+"Continue Shopping","Продолжить заказ",module,Magento_Checkout
 "What's this?","Что это?",module,Magento_Checkout
 "Edit item parameters","Изменить параметры позиции",module,Magento_Checkout
 Edit,Редактировать,module,Magento_Checkout
@@ -695,28 +876,35 @@ Loading...,Загрузка...,module,Magento_Checkout
 "Save and Continue Edit","Сохранить и продолжить редактирование",module,Magento_Cms
 "New Block","Новый блок",module,Magento_Cms
 "Block Information","Блок информации",module,Magento_Cms
+Identifier,Идентификатор,module,Magento_Cms
 "Store View","Представление магазина",module,Magento_Cms
 Status,Статус,module,Magento_Cms
 Enabled,Включено,module,Magento_Cms
 Disabled,Отключено,module,Magento_Cms
+Title,Название,module,Magento_Cms
 "Add New Page","Добавить новую страницу",module,Magento_Cms
 "Save Page","Сохранить страницу",module,Magento_Cms
 "Delete Page","Удалить страницу",module,Magento_Cms
 "New Page","Новая страница",module,Magento_Cms
+Layout,Раскладка,module,Magento_Cms
 "Custom Design","Индивидуальный дизайн",module,Magento_Cms
 "-- Please Select --","-- Выберите --",module,Magento_Cms
 Design,Дизайн,module,Magento_Cms
 "Page Title","Заголовок страницы",module,Magento_Cms
+"URL Key","Ключ URL-адреса",module,Magento_Cms
 Created,Создан,module,Magento_Cms
 Modified,Изменен,module,Magento_Cms
 Action,Действие,module,Magento_Cms
 Preview,"Предварительный просмотр",module,Magento_Cms
+"Media Storage","Хранилище медии",module,Magento_Cms
 "Create Folder...","Создать папку...",module,Magento_Cms
 "Delete Folder","Удалить папку",module,Magento_Cms
 "Delete File","Удалить файл",module,Magento_Cms
+"Insert File","Вставить файл",module,Magento_Cms
 "New Folder Name:","Имя новой папки:",module,Magento_Cms
 "Are you sure you want to delete this folder?","Вы уверены, что хотите удалить эту папку?",module,Magento_Cms
 "Are you sure you want to delete this file?","Вы уверены, что хотите удалить этот файл?",module,Magento_Cms
+"Images (%1)","Изображение (%1)",module,Magento_Cms
 Home,Главная,module,Magento_Cms
 "Go to Home Page","Перейти на главную страницу",module,Magento_Cms
 "Edit Page","Редактировать страницу",module,Magento_Cms
@@ -725,15 +913,25 @@ Pages,Страницы,module,Magento_Cms
 "Browse Files...","Выбрать файлы...",module,Magento_Cms
 "Collapse All","Свернуть все",module,Magento_Cms
 "Expand All","Развернуть всё",module,Magento_Cms
+"New attribute set name","Новое имя набора атрибутов",module,Magento_ConfigurableProduct
+"Choose an Option...","Выберите опцию...",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products.","Эта атрибут используется в настраиваемые продукты.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Некоторые Товар области изменений недействительны.",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Эта группа содержит атрибуты, используемые в настраиваемых Товар. Пожалуйста переместите эти атрибуты в другую группу и повторите попытку.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Этот атрибут используется в настраиваемых Товар. Вы не можете удалить его из набора атрибутов.",module,Magento_ConfigurableProduct
 "Associated Products","Связанные товары",module,Magento_ConfigurableProduct
 Price,Цена,module,Magento_ConfigurableProduct
 Quantity,Количество,module,Magento_ConfigurableProduct
+"Add Products Manually","Добавить продукты вручную",module,Magento_ConfigurableProduct
+"Current Variations","Текущие вариации",module,Magento_ConfigurableProduct
 Image,Изображение,module,Magento_ConfigurableProduct
 Name,Название,module,Magento_ConfigurableProduct
 SKU,Артикул,module,Magento_ConfigurableProduct
 Weight,Вес,module,Magento_ConfigurableProduct
 "Upload Image","Загрузить изображение",module,Magento_ConfigurableProduct
 "No Image","Нет изображения",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Bыбирать Затронутый атрибут набор",module,Magento_ConfigurableProduct
+Confirm,Подтвердить,module,Magento_ConfigurableProduct
 Cancel,Отмена,module,Magento_ConfigurableProduct
 "* Required Fields","* Обязательные поля",module,Magento_Contact
 Name,Название,module,Magento_Contact
@@ -747,7 +945,12 @@ Import,Импорт,module,Magento_CurrencySymbol
 "Currency Symbols","Символы валют",module,Magento_CurrencySymbol
 "Currency Rates","Курсы валют",module,Magento_CurrencySymbol
 System,Система,module,Magento_CurrencySymbol
+"You have not set a default shipping address.","Вы не установили адрес доставки по умолчанию.",module,Magento_Customer
+"You have not set a default billing address.","Вы не установили платежный адрес по умолчанию.",module,Magento_Customer
+"Address Book","Адресная книга",module,Magento_Customer
 "Edit Address","Изменить адрес",module,Magento_Customer
+"Add New Address","Добавить новый адрес",module,Magento_Customer
+region,регион,module,Magento_Customer
 "Create Order","Создать заказ",module,Magento_Customer
 "New Customer","Новый клиент",module,Magento_Customer
 "Save and Continue Edit","Сохранить и продолжить редактирование",module,Magento_Customer
@@ -761,6 +964,7 @@ Total,Всего,module,Magento_Customer
 Action,Действие,module,Magento_Customer
 Configure,Настроить,module,Magento_Customer
 Delete,Удалить,module,Magento_Customer
+"Subscribed to Newsletter","Подписка на рассылку",module,Magento_Customer
 "End Date","Дата окончания",module,Magento_Customer
 Status,Статус,module,Magento_Customer
 Cancel,Отмена,module,Magento_Customer
@@ -768,23 +972,51 @@ Unknown,Неизвестно,module,Magento_Customer
 Order,Заказ,module,Magento_Customer
 "Order Total","Сумма заказа",module,Magento_Customer
 Qty,Кол-во,module,Magento_Customer
+"The customer does not have default billing address.","Клиент не имеет платежного адреса по умолчанию.",module,Magento_Customer
 No,Нет,module,Magento_Customer
 Yes,Да,module,Magento_Customer
 "Delete File","Удалить файл",module,Magento_Customer
 "Customer Groups","Группы покупателей",module,Magento_Customer
 "Tax Class","Налоговый класс",module,Magento_Customer
+"Would you like to change the Customer Group for this order?","Вы хотите изменить Клиент Группа для этого заказа?",module,Magento_Customer
 "Date of Birth","Дата рождения",module,Magento_Customer
 "Bad request.","Неверный запрос.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","Этот ключ подтверждения недействителен или истек.",module,Magento_Customer
+"There was an error confirming the account","Там была ошибка подтверждение учетной записи",module,Magento_Customer
+"Thank you for registering with %1.","Благодарим вас за регистрацию %1.",module,Magento_Customer
+"This email does not require confirmation.","Это письмо не требует подтверждения.",module,Magento_Customer
+"Wrong email.","Неправильный адрес электронной почты.",module,Magento_Customer
+"Your password reset link has expired.","Истекает ссылка на сброс пароля.",module,Magento_Customer
 "Account Information","Данные учётной записи",module,Magento_Customer
+"Please correct the email address.","Пожалуйста, исправьте адрес электронной почты.",module,Magento_Customer
+"Please enter your email.","Введите свой адрес электронной почты.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Если есть учетная запись, связанная с %1 вы получите электронное письмо со ссылкой для сброса пароля.",module,Magento_Customer
 "My Account","Моя учётная запись",module,Magento_Customer
+"New Password and Confirm New Password values didn't match.","Hовый пароль и Подтвердите новый пароль значения не совпадают.",module,Magento_Customer
+"Please correct the quote items and try again.","Исправьте элементы котировки и повторите попытку.",module,Magento_Customer
+"The customer group no longer exists.","Клиент группы больше не существует.",module,Magento_Customer
 Customers,Покупатели,module,Magento_Customer
 "New Group","Новая группа",module,Magento_Customer
+"New Customer Groups","Новые группы клиентов",module,Magento_Customer
 "Edit Group","Редактировать группу",module,Magento_Customer
+"Edit Customer Groups","Редактировать группы клиентов",module,Magento_Customer
+"Please enter the state/province.","Укажите штат/провинцию.",module,Magento_Customer
 Global,Глобальнo,module,Magento_Customer
 "Shipping Address","Адрес доставки",module,Magento_Customer
 "-- Please Select --","-- Выберите --",module,Magento_Customer
 "Please correct this email address: ""%1"".","Пожалуйста, исправьте этот email адрес: ""%1"".",module,Magento_Customer
+"The password can not begin or end with a space.","Пароль не может начинаться или заканчивается пробелом.",module,Magento_Customer
+Admin,Администратор,module,Magento_Customer
+"Attribute object is undefined","Объект атрибута не определен",module,Magento_Customer
+"""%1"" invalid type entered.","""%1"" введен неверный тип.",module,Magento_Customer
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" содержит неалфавитные или нечисловые символы.",module,Magento_Customer
+"""%1"" is an empty string.","""%1"" пустая строка.",module,Magento_Customer
+"""%1"" is not a valid email address.","""%1"" не является действительным адресом электронной почты.",module,Magento_Customer
+"""%1"" is not a valid hostname.","""%1"" не является допустимым именем хоста.",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","Укажите действительную дату между %1 и %2 в %3.",module,Magento_Customer
+"Please enter a valid date equal to or greater than %1 at %2.","Укажите действительную дату, равную или превышающую %1 в %2.",module,Magento_Customer
 "Customer Group","Группы клиентов",module,Magento_Customer
+"Customer Group already exists.","Клиент Группа уже существует.",module,Magento_Customer
 Edit,Редактировать,module,Magento_Customer
 Visitor,Посетитель,module,Magento_Customer
 Customer,Клиент,module,Magento_Customer
@@ -796,17 +1028,26 @@ Store,Магазин,module,Magento_Customer
 Change,Изменить,module,Magento_Customer
 "Contact Information","Контактная информация",module,Magento_Customer
 "Change Password","Сменить пароль",module,Magento_Customer
+"Default Addresses","Адреса по умолчанию",module,Magento_Customer
+"Change Billing Address","Изменить платежный адрес",module,Magento_Customer
+"You have no default billing address in your address book.","У вас нет настроек по умолчанию платежный адрес в адресной книге.",module,Magento_Customer
+"Change Shipping Address","Изменить адрес доставки",module,Magento_Customer
+"You have no default shipping address in your address book.","У вас нет доставки по умолчанию адрес в адресной книге.",module,Magento_Customer
+"Additional Address Entries","Дополнительные адреса",module,Magento_Customer
 "Delete Address","Удалить адрес",module,Magento_Customer
 "* Required Fields","* Обязательные поля",module,Magento_Customer
 Company,Компания,module,Magento_Customer
 Fax,Факс,module,Magento_Customer
 Address,Адрес,module,Magento_Customer
+"Street Address","Почтовый адрес",module,Magento_Customer
 "VAT Number","Номер НДС",module,Magento_Customer
 City,Город,module,Magento_Customer
 State/Province,Область,module,Magento_Customer
 "Zip/Postal Code","Почтовый индекс",module,Magento_Customer
 Country,Страна,module,Magento_Customer
 Email,"Электронная почта",module,Magento_Customer
+"Send confirmation link","Отправить ссылку для подтверждения",module,Magento_Customer
+"Current Password","Tекущий пароль",module,Magento_Customer
 "New Password","Новый пароль",module,Magento_Customer
 "Confirm New Password","Введите пароль ещё раз",module,Magento_Customer
 Save,Сохранить,module,Magento_Customer
@@ -1432,6 +1673,12 @@ Total:,Всего:,module,Magento_Checkout
 "Add Products to Option ""%1""","Добавить товары в вариант «%1»",module,Magento_Bundle
 "Add Selected Products","Добавить выбранныетовары",module,Magento_Bundle
 Cancel,Отмена,module,Magento_Catalog
+"Configure Product","Настроить продукт",module,Magento_Catalog
+"Select type of option.","Выберите тип опции.",module,Magento_Catalog
+"Please add rows to option.","Пожалуйста, добавьте строки к варианту.",module,Magento_Catalog
+"New Option","Новый вариант",module,Magento_Catalog
+"Select Product","Выберите продукт",module,Magento_Catalog
+"Choose existing category.","Выберите существующую категорию.",module,Magento_Catalog
 "Create Category","Создать категорию",module,Magento_Catalog
 "Incl. Tax","Включая налог",module,Magento_ConfigurableProduct
 Allow,Разрешить,module,Magento_Integration
@@ -1633,13 +1880,18 @@ Forms,Формы,module,Magento_Captcha
 "Case Sensitive","С учётом регистра",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Включить CAPTCHA в фронтэнде",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA для форм «Создать пользователя» и «Забыли пароль» всегда включена.",module,Magento_Captcha
+"Stock Options","Варианты Запаса",module,Magento_CatalogInventory
 "Manage Stock","Управление наличием",module,Magento_CatalogInventory
+Backorders,Предзаказы,module,Magento_CatalogInventory
 Rule,Правило,module,Magento_CatalogRule
 "Web Site",Веб-сайт,module,Magento_CatalogRule
 "Catalog Search","Поиск по каталогу",module,Magento_CatalogSearch
 "Minimal Query Length","Минимальная длин запроса",module,Magento_CatalogSearch
 "Maximum Query Length","Максимальная длина запроса",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Перестроить каталог в полнотекстовом поисковом каталоге",module,Magento_CatalogSearch
 "List Mode","Режим списка",module,Magento_Catalog
+"Search Engine Optimization","Поисковая оптимизация",module,Magento_Catalog
+"Page Title Separator","Разделитель заголовка страницы",module,Magento_Catalog
 "Time Format","Формат времени",module,Magento_Catalog
 "Year Range","Диапазон лет",module,Magento_Catalog
 "Please use a four-digit year format.","Просьба используйте четырехзначный формат.",module,Magento_Catalog
@@ -1647,10 +1899,22 @@ Rule,Правило,module,Magento_CatalogRule
 "Watermark Opacity, Percent","Непрозрачность водяного знака, в процент",module,Magento_Catalog
 Watermark,"Водяной знак",module,Magento_Catalog
 "Watermark Position","Позиция водяного знака",module,Magento_Catalog
+"Product Price","Цена продукта",module,Magento_Catalog
+"Index product prices","Цены на индекс товар",module,Magento_Catalog
+"List of Products that are set as New","Список продуктов, которые установлены как новые",module,Magento_Catalog
+"All products - recently added products, New products - products marked as new","Все продукты - недавно добавленные продукты, Новые продукты - продукция, обозначенная как новая",module,Magento_Catalog
 "All products","Все товары",module,Magento_Catalog
 "New products","Новые товары",module,Magento_Catalog
+"Display Page Control","Контроль экранной страницы",module,Magento_Catalog
+"Number of Products per Page","Количество продуктов на страницу",module,Magento_Catalog
+"Number of Products to Display","Количество продуктов для отображения",module,Magento_Catalog
+"New Products List Template","Шаблон новых продуктов",module,Magento_Catalog
+"New Products Images and Names Template","Шаблоны с изображениями и именами новых продуктов",module,Magento_Catalog
 "Require Customer To Be Logged In To Checkout","Клиент должен войти в систему, чтобы оформить заказ",module,Magento_Checkout
 "Shipping Address","Адрес доставки",module,Magento_Checkout
+"For delivery questions.","По вопросам доставки.",module,Magento_Checkout
+"Thank you for your purchase!","Спасибо за покупку!",module,Magento_Checkout
+"Configurable Product Image","Kонфигурируемый Товар Образ",module,Magento_ConfigurableProduct
 Contacts,Контакты,module,Magento_Contact
 "Contact Us","Обратная связь",module,Magento_Contact
 Phone,"Номер телефона",module,Magento_Customer
