@@ -503,16 +503,20 @@ Home,Главная,module,Magento_CatalogSearch
 All,Все,module,Magento_CatalogSearch
 Yes,Да,module,Magento_CatalogSearch
 No,Нет,module,Magento_CatalogSearch
+Results,Результаты,module,Magento_CatalogSearch
 Grid,Сетка,module,Magento_CatalogSearch
 List,Список,module,Magento_CatalogSearch
+Relevance,Релевантность,module,Magento_CatalogSearch
 "Search results for: '%1'","Результаты поиска для:' %1'",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Минимальная длина поискового запроса %1",module,Magento_CatalogSearch
 "Please specify at least one search term.","Укажите, по крайней мере, один поисковый запрос.",module,Magento_CatalogSearch
 "%1 and greater","%1 и более",module,Magento_CatalogSearch
 "up to %1","до %1",module,Magento_CatalogSearch
+"Search Settings","Настройки поиска",module,Magento_CatalogSearch
 Search,Поиск,module,Magento_CatalogSearch
 "Advanced Search","Расширенный поиск",module,Magento_CatalogSearch
 "Modify your search","Изменить ваш поиск",module,Magento_CatalogSearch
+"Don't see what you're looking for?","Не нашли то, что искали?",module,Magento_CatalogSearch
 Root,Корень,module,Magento_Catalog
 "Save Category","Сохранить категорию",module,Magento_Catalog
 "Delete Category","Удалить категорию",module,Magento_Catalog
@@ -1144,6 +1148,7 @@ Export,Экспорт,module,Magento_ImportExport
 "Export Settings","Экспорт настроек",module,Magento_ImportExport
 From,от,module,Magento_ImportExport
 To,До,module,Magento_ImportExport
+Filter,Фильтр,module,Magento_ImportExport
 Import,Импорт,module,Magento_ImportExport
 Import/Export,Импорт/Экспорт,module,Magento_ImportExport
 Status,Статус,module,Magento_ImportExport
@@ -1263,6 +1268,7 @@ Subtotal,"Промежуточный итог",module,Magento_Quote
 Discount,Скидка,module,Magento_Quote
 Tax,Налог,module,Magento_Quote
 "New Accounts","Новые учетные записи",module,Magento_Reports
+Filter,Фильтр,module,Magento_Reports
 Day,День,module,Magento_Reports
 Month,Месяц,module,Magento_Reports
 Year,Год,module,Magento_Reports
@@ -1885,6 +1891,7 @@ Forms,Формы,module,Magento_Captcha
 Backorders,Предзаказы,module,Magento_CatalogInventory
 Rule,Правило,module,Magento_CatalogRule
 "Web Site",Веб-сайт,module,Magento_CatalogRule
+"Popular Search Terms","Популярные поисковые запросы",module,Magento_CatalogSearch
 "Catalog Search","Поиск по каталогу",module,Magento_CatalogSearch
 "Minimal Query Length","Минимальная длин запроса",module,Magento_CatalogSearch
 "Maximum Query Length","Максимальная длина запроса",module,Magento_CatalogSearch
