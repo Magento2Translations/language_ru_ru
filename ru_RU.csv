@@ -653,9 +653,11 @@ Home,Главная,module,Magento_CatalogSearch
 All,Все,module,Magento_CatalogSearch
 Yes,Да,module,Magento_CatalogSearch
 No,Нет,module,Magento_CatalogSearch
+Results,Результаты,module,Magento_CatalogSearch
 Grid,Сетка,module,Magento_CatalogSearch
 List,Список,module,Magento_CatalogSearch
 "Search Weight","Вес Поиска",module,Magento_CatalogSearch
+Relevance,Релевантность,module,Magento_CatalogSearch
 "Search results for: '%1'","Результаты поиска для:' %1'",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Минимальная длина поискового запроса %1",module,Magento_CatalogSearch
 "Please specify at least one search term.","Укажите, по крайней мере, один поисковый запрос.",module,Magento_CatalogSearch
@@ -663,10 +665,15 @@ List,Список,module,Magento_CatalogSearch
 "up to %1","до %1",module,Magento_CatalogSearch
 Category,Категория,module,Magento_CatalogSearch
 "%1 and above","%1 и выше",module,Magento_CatalogSearch
+"Bucket does not exist","Контейнер не существует",module,Magento_CatalogSearch
 Product,Товар,module,Magento_CatalogSearch
+"Search Settings","Настройки поиска",module,Magento_CatalogSearch
 Search,Поиск,module,Magento_CatalogSearch
 "Advanced Search","Расширенный поиск",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Мы не можем найти другие элементы, соответствующие этим критериям поиска.",module,Magento_CatalogSearch
+"Modify your search.","Изменить ваш запрос.",module,Magento_CatalogSearch
+"Don't see what you're looking for?","Не нашли то, что искали?",module,Magento_CatalogSearch
+"Your search returned no results.","Ничего не найдено.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Создание постоянного перенаправления для старого URL-адреса",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Сочетание условий",module,Magento_CatalogWidget
 SKU,Артикул,module,Magento_CatalogWidget
@@ -1212,9 +1219,11 @@ Delete,Удалить,module,Magento_Cms
 "Collapse All","Свернуть все",module,Magento_Cms
 "Expand All","Развернуть всё",module,Magento_Cms
 "Default Config","Конфигурации по умолчанию",module,Magento_Config
+"Save Config","Сохранить Настройки",module,Magento_Config
 [GLOBAL],[ГЛОБАЛЬНО],module,Magento_Config
 [WEBSITE],[САЙТ],module,Magento_Config
 "[STORE VIEW]","[Представление магазина]",module,Magento_Config
+"Use system value","Использовать системные значения",module,Magento_Config
 "Use Default","Использовать значение по умолчанию",module,Magento_Config
 Add,Добавить,module,Magento_Config
 "Delete File","Удалить файл",module,Magento_Config
@@ -1222,6 +1231,9 @@ Enable,Включить,module,Magento_Config
 Disable,Отключить,module,Magento_Config
 System,Система,module,Magento_Config
 "Page not found.","Страница не найдена.",module,Magento_Config
+"Please specify the admin custom URL.","Пожалуйста, укажите URL-адрес панели управления.",module,Magento_Config
+"Invalid %1. %2","Недопустимый %1. %2",module,Magento_Config
+"Value must be a URL or one of placeholders: %1","Значение должно быть URL-адресом, или одним из параметров: %1",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","К сожалению, мы еще не установили базовую валюту, которую вы выбрали.",module,Magento_Config
 "We can't save the Cron expression.","Мы не можем сохранить Cron-выражение.",module,Magento_Config
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","Файл, который вы загружаете превышает предельный размер на %1 килобайт.",module,Magento_Config
@@ -1263,7 +1275,7 @@ Summary,Резюме,module,Magento_ConfigurableProduct
 "Value index is not specified for an option.","Индекс ценности не является указанный для опции.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not contain required attribute ""%2"".","Продукт с идентификатором ""%1"" не содержать требуемый атрибут ""%2"".",module,Magento_ConfigurableProduct
 "Products ""%1"" and ""%2"" have the same set of attribute values.","Товар ""%1"" и ""%2"" имеют те же набор значений атрибутов.",module,Magento_ConfigurableProduct
-"You need to choose options for your item.","Тебе нужно выбирать опции для тебя позиция.",module,Magento_ConfigurableProduct
+"You need to choose options for your item.","Необходимо выбрать параметры для элемента.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Некоторые Товар области изменений недействительны.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","Конфигурация должна быть указана атрибуты",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Тип %1 не является экземпляр %2",module,Magento_ConfigurableProduct
@@ -1488,6 +1500,7 @@ Save,Сохранить,module,Magento_Customer
 "Registered Customers","Зарегистрированные клиенты",module,Magento_Customer
 Password,Пароль,module,Magento_Customer
 "Forgot Your Password?","Забыли Ваш пароль?",module,Magento_Customer
+"Create an Account",Регистрироваться,module,Magento_Customer
 "New Customers","Новый клиент",module,Magento_Customer
 Gender,Пол,module,Magento_Customer
 Name,Название,module,Magento_Customer
@@ -1596,6 +1609,7 @@ Export,Экспорт,module,Magento_ImportExport
 "Export Settings","Экспорт настроек",module,Magento_ImportExport
 From,от,module,Magento_ImportExport
 To,До,module,Magento_ImportExport
+Filter,Фильтр,module,Magento_ImportExport
 Import,Импорт,module,Magento_ImportExport
 Import/Export,Импорт/Экспорт,module,Magento_ImportExport
 Status,Статус,module,Magento_ImportExport
@@ -1736,6 +1750,7 @@ Subtotal,"Промежуточный итог",module,Magento_Quote
 Discount,Скидка,module,Magento_Quote
 Tax,Налог,module,Magento_Quote
 "New Accounts","Новые учетные записи",module,Magento_Reports
+Filter,Фильтр,module,Magento_Reports
 Day,День,module,Magento_Reports
 Month,Месяц,module,Magento_Reports
 Year,Год,module,Magento_Reports
@@ -2248,6 +2263,7 @@ Password:,Пароль:,module,Magento_Customer
 Message:,Сообщение:,module,Magento_GiftMessage
 Edit,Редактировать,module,Magento_GiftMessage
 Delete,Удалить,module,Magento_GiftMessage
+Filters,Фильтры,module,Magento_Ui
 "Thank you,","Спасибо,",module,Magento_User
 "Welcome to %store_name.","Добро пожаловать на %store_name.",theme,frontend/Magento/luma
 Email:,"Электронная почта:",theme,frontend/Magento/luma
@@ -2582,6 +2598,7 @@ Back,Вернуться,module,Magento_CatalogRule
 Actions,Действия,module,Magento_CatalogRule
 Yes,Да,module,Magento_CatalogRule
 No,Нет,module,Magento_CatalogRule
+"Popular Search Terms","Популярные поисковые запросы",module,Magento_CatalogSearch
 "Catalog Search","Поиск по каталогу",module,Magento_CatalogSearch
 "Minimal Query Length","Минимальная длин запроса",module,Magento_CatalogSearch
 "Maximum Query Length","Максимальная длина запроса",module,Magento_CatalogSearch
