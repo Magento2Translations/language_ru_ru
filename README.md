@@ -1,3 +1,9 @@
+# Looking for maintainer
+These [Magento2Translations](http://magento2translations.github.io/) packages are unmaintained. This means that from time to time we will run the sync and build from Crowdin. But we probably won't add Magento/Crowdin versions. If you would like to continue the work done here please send us a message.
+
+Have a look at all the other great community maintained packages at [e-conomix/magento-translations](https://github.com/e-conomix/magento-translations).
+Or [Mageplaza maintained packages](https://github.com/mageplaza?q=language).
+
 # Russian (русский) Magento2 Language Pack (ru_RU)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
 The Russian (русский) translations used can be found [here](https://crowdin.com/project/magento-2/ru).
@@ -7,9 +13,9 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [2.1.8](https://crowdin.com/project/magento-2/ru#/2.1.8) at Crowdin and based on the Magento 2.1.8 sourcefiles.
-There have been  2788 strings translated of the 8467 strings in the Magento source.
+There have been  3186 strings translated of the 8467 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/33)
+Translation progress:![Progress](http://progressed.io/bar/38)
 
 # Installation
 **Please select the git branch appropriate for your magento version from this repo.**
